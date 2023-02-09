@@ -1,17 +1,12 @@
 import { useState, useEffect } from 'react';
-import Switch from "react-router-dom";
 import React from "react";
-import { createRoot } from "react-dom/client";
-import {
-  createBrowserRouter,
-  RouterProvider,
-  Route,
-  Link,
-} from "react-router-dom";
+import { Routes, Route} from "react-router-dom";
 import Navbar from './components/Navbar'
 import './App.css';
 import Home from "./components/Home";
 import About from "./components/About";
+import { Link } from "react-router-dom";
+
 
 function App() {
   const [testState, setTestState] = useState(0)
@@ -23,12 +18,12 @@ function App() {
   }, [testState]);
   return (
     <div className="App">
-      <Navbar/>
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
+      <Navbar />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
         <Route path="*" component={() => <h2>404 Not Found </h2>} />
-      </Switch>
+      </Routes>
       <h1>Welcome to my page</h1>
       <h2>You've been here for {testState} seconds</h2>
     </div>
