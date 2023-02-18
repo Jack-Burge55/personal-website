@@ -1,0 +1,114 @@
+{
+    "The Body Snatchers": {
+        "Author": "Jack Finney",
+        "Rating": 2,
+        "Review": "Great ending",
+        "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575085312-65.jpg?fit=437%2C675",
+        "Themes": ["Plot Twist", "Set On Earth"]
+    },
+    "More Than Human": {
+        "Author": "Theodore Sturgeon",
+        "Rating": 2.5,
+        "Review": "Great ending",
+        "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575110106-30.jpg?fit=440%2C675",
+        "Themes": ["Plot Twist", "Set On Earth"]
+    },
+    "Sirius": {
+        "Author": "Olaf Stapledon",
+        "Rating": 3,
+        "Review": "Great ending",
+        "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575099425-119.jpg?fit=441%2C675",
+        "Themes": ["Plot Twist", "Set On Earth"]
+    },
+    "Tau Zero": {
+        "Author": "Poul Anderson",
+        "Rating": 3.5,
+        "Review": "Great ending",
+        "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575088047-22.jpg?fit=438%2C675",
+        "Themes": ["Plot Twist", "Set On Earth"]
+    },
+    "Babel-17": {
+        "Author": "Samuel R. Delaney",
+        "Rating": 3.5,
+        "Review": "Great ending",
+        "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575094208-212.jpg?fit=438%2C675",
+        "Themes": ["Plot Twist", "Set On Earth"]
+    },
+    "The Sirens of Titan": {
+        "Author": "Kurt Vonnegut",
+        "Rating": 4,
+        "Review": "Great ending",
+        "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9781857988840-399.jpg?fit=439%2C675",
+        "Themes": ["Plot Twist", "Set On Earth"]
+    },
+    "Hard To Be A God": {
+        "Author": "Arkady & Boris Strugatsky",
+        "Rating": 4,
+        "Review": "Great ending",
+        "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9781473208292-244.jpg?fit=438%2C675",
+        "Themes": ["Plot Twist", "Set On Earth"]
+    },
+    "Inverted world": {
+        "Author": "Christopher Priest",
+        "Rating": 5,
+        "Review": "Great ending",
+        "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575082106-150.jpg?fit=440%2C675",
+        "Themes": ["Plot Twist", "Set On Earth"]
+    },
+    "Flowers For Algernon": {
+        "Author": "Daniel Keyes",
+        "Rating": 5,
+        "Review": "Great ending",
+        "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575088498-94.jpg?fit=440%2C675",
+        "Themes": ["Plot Twist", "Set On Earth"]
+    },
+    "The Book of Skulls": {
+        "Author": "Robert Silverberg",
+        "Rating": 3,
+        "Review": "Great ending",
+        "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575106260-40.jpg?fit=441%2C675",
+        "Themes": ["Plot Twist", "Set On Earth"]
+    },
+    "The War of the Worlds": {
+        "Author": "H. G. Wells",
+        "Rating": 2,
+        "Review": "Great ending",
+        "Image": "https://i.pinimg.com/736x/44/21/08/44210868b71c16b73c8553eb340a08f3.jpg",
+        "Themes": ["Plot Twist", "Set On Earth"]
+    },
+    "Time Out of Joint": {
+        "Author": "Philip K. Dick",
+        "Rating": 3.5,
+        "Review": "Great ending",
+        "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575098329-28.jpg?fit=440%2C675",
+        "Themes": ["Plot Twist", "Set On Earth"]
+    },
+    "Dune": {
+        "Author": "Frank Herbert",
+        "Rating": 3.5,
+        "Review": "Great ending",
+        "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575081505-451.jpg?fit=436%2C675",
+        "Themes": ["Plot Twist", "Set On Earth"]
+    },
+    "The Day of the Triffids": {
+        "Author": "John Wyndham",
+        "Rating": 3,
+        "Review": "Great ending",
+        "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9781473212671-123.jpg?fit=437%2C675",
+        "Themes": ["Plot Twist", "Set On Earth"]
+    },
+    "The Hitchhiker's Guide to the Galaxy": {
+        "Author": "Douglas Adams",
+        "Rating": 4,
+        "Review": "Great ending",
+        "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575115347-329.jpg?fit=437%2C675",
+        "Themes": ["Plot Twist", "Set On Earth"]
+    },
+    "Mission of Gravity": {
+        "Author": "Hal Clement",
+        "Rating": 3.5,
+        "Review": "Great ending",
+        "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9781473206380-114.jpg?fit=440%2C675",
+        "Themes": ["Plot Twist", "Set On Earth"]
+    }
+}

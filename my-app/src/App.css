@@ -1,3 +1,21 @@
 .App {
   text-align: center;
 }
+
+.allBooks {
+  width: 100%;
+}
+
+.bookSquare {
+  display: inline-grid;
+  width: 24%;
+  height: 300px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+}
+
+.bookImage {
+  width: 35%;
+  height: 40%;
+}
