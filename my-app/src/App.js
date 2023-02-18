@@ -6,15 +6,11 @@ import './App.css';
 import Home from "./components/Home";
 import Books from './components/Books';
 import About from "./components/About";
+import BookPage from './components/BookPage';
 
 
 function App() {
-  // const [testState, setTestState] = useState(0)
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     setTestState(testState + 1);
-  //   }, 1000);
-  // }, [testState]);
+
   return (
     <div className="App">
       <Navbar />
