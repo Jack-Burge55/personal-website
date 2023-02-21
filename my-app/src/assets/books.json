@@ -2,7 +2,7 @@
     "1" : {
         "Title": "The Body Snatchers",
         "Author": "Jack Finney",
-        "Rating": 2,
+        "Rating": 4,
         "Review": "Great ending",
         "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575085312-65.jpg?fit=437%2C675",
         "Themes": ["Plot Twist", "Set On Earth"]
@@ -10,7 +10,7 @@
     "2": {
         "Title": "More Than Human",
         "Author": "Theodore Sturgeon",
-        "Rating": 2.5,
+        "Rating": 5,
         "Review": "Great ending",
         "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575110106-30.jpg?fit=440%2C675",
         "Themes": ["Plot Twist", "Set On Earth"]
@@ -18,7 +18,7 @@
     "3": {
         "Title": "Sirius",
         "Author": "Olaf Stapledon",
-        "Rating": 3,
+        "Rating": 6,
         "Review": "Great ending",
         "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575099425-119.jpg?fit=441%2C675",
         "Themes": ["Plot Twist", "Set On Earth"]
@@ -26,7 +26,7 @@
     "4": {
         "Title": "Tau Zero",
         "Author": "Poul Anderson",
-        "Rating": 3.5,
+        "Rating": 7,
         "Review": "Great ending",
         "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575088047-22.jpg?fit=438%2C675",
         "Themes": ["Plot Twist", "Set On Earth"]
@@ -34,15 +34,15 @@
     "5": {
         "Title": "Babel-17",
         "Author": "Samuel R. Delaney",
-        "Rating": 3.5,
+        "Rating": 7,
         "Review": "Great ending",
         "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575094208-212.jpg?fit=438%2C675",
-        "Themes": ["Plot Twist", "Set On Earth"]
+        "Themes": ["Set On Earth"]
     },
     "6": {
         "Title": "The Sirens of Titan",
         "Author": "Kurt Vonnegut",
-        "Rating": 4,
+        "Rating": 8,
         "Review": "Great ending",
         "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9781857988840-399.jpg?fit=439%2C675",
         "Themes": ["Plot Twist", "Set On Earth"]
@@ -50,7 +50,7 @@
     "7": {
         "Title": "Hard To Be A God",
         "Author": "Arkady & Boris Strugatsky",
-        "Rating": 4,
+        "Rating": 8,
         "Review": "Great ending",
         "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9781473208292-244.jpg?fit=438%2C675",
         "Themes": ["Plot Twist", "Set On Earth"]
@@ -58,7 +58,7 @@
     "8": {
         "Title": "Inverted world",
         "Author": "Christopher Priest",
-        "Rating": 5,
+        "Rating": 10,
         "Review": "Great ending",
         "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575082106-150.jpg?fit=440%2C675",
         "Themes": ["Plot Twist", "Set On Earth"]
@@ -66,7 +66,7 @@
     "9": {
         "Title": "Flowers For Algernon",
         "Author": "Daniel Keyes",
-        "Rating": 5,
+        "Rating": 10,
         "Review": "Great ending",
         "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575088498-94.jpg?fit=440%2C675",
         "Themes": ["Plot Twist", "Set On Earth"]
@@ -74,7 +74,7 @@
     "10": {
         "Title": "The Book of Skulls",
         "Author": "Robert Silverberg",
-        "Rating": 3,
+        "Rating": 6,
         "Review": "Great ending",
         "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575106260-40.jpg?fit=441%2C675",
         "Themes": ["Plot Twist", "Set On Earth"]
@@ -82,15 +82,15 @@
     "11": {
         "Title": "The War of the Worlds",
         "Author": "H. G. Wells",
-        "Rating": 2,
+        "Rating": 4,
         "Review": "Great ending",
-        "Image": "",
+        "Image": "https://i.pinimg.com/736x/44/21/08/44210868b71c16b73c8553eb340a08f3.jpg",
         "Themes": ["Plot Twist", "Set On Earth"]
     },
     "12": {
         "Title": "Time Out of Joint",
         "Author": "Philip K. Dick",
-        "Rating": 3.5,
+        "Rating": 7,
         "Review": "Great ending",
         "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575098329-28.jpg?fit=440%2C675",
         "Themes": ["Plot Twist", "Set On Earth"]
@@ -98,7 +98,7 @@
     "13": {
         "Title": "Dune",
         "Author": "Frank Herbert",
-        "Rating": 3.5,
+        "Rating": 7,
         "Review": "Great ending",
         "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575081505-451.jpg?fit=436%2C675",
         "Themes": ["Plot Twist", "Set On Earth"]
@@ -106,7 +106,7 @@
     "14": {
         "Title": "The Day of the Triffids",
         "Author": "John Wyndham",
-        "Rating": 3,
+        "Rating": 6,
         "Review": "Great ending",
         "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9781473212671-123.jpg?fit=437%2C675",
         "Themes": ["Plot Twist", "Set On Earth"]
@@ -114,7 +114,7 @@
     "15": {
         "Title": "The Hitchhiker's Guide to the Galaxy",
         "Author": "Douglas Adams",
-        "Rating": 4,
+        "Rating": 8,
         "Review": "Great ending",
         "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575115347-329.jpg?fit=437%2C675",
         "Themes": ["Plot Twist", "Set On Earth"]

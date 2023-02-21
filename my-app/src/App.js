@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react';
 import React from "react";
 import { Routes, Route} from "react-router-dom";
 import Navbar from './components/Navbar'
@@ -16,6 +15,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
+        <Route path="/book/:bookId" element={<BookPage bookId/>} />
         <Route path="/books" element={<Books />} />
         <Route path="/about" element={<About />} />
         <Route path="*" component={() => <h2>404 Not Found </h2>} />
