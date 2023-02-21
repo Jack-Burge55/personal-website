@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 import booksObject from "../assets/books.json"
 const BookPage = () => {
     const { bookId } = useParams()
-    const details = booksObject[bookId]
+    const details = booksObject["Books"][bookId]
     return(
         <>
         <img className='bookImage' alt={"SF Masterworks cover"} src={details.Image} />
