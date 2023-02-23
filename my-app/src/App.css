@@ -1,12 +1,13 @@
 .App {
   text-align: center;
+  min-width: 320px;
 }
 
 .allBooks {
   width: 100%;
 }
 
-.bookSquare {
+.bookTileSquare {
   display: inline-grid;
   margin: 5px;
   width: 24%;
@@ -17,11 +18,43 @@
   min-width: 150px;
 }
 
-.bookImage {
+.bookTileImage {
   margin: 0 auto;
   width: 50%;
   height: 90%;
   object-fit: contain;
   overflow: hidden;
   min-width: 100px;
+}
+
+.bookPageDiv {
+  display: flex;
+}
+
+.bookPageDetails {
+flex: 1;
+}
+
+.bookPageImageDiv {
+flex: 1;
+}
+
+.bookPageImage {
+width: 250px;
+}
+
+.bookPageQuote {
+  font-style: italic;
+  font-size: larger;
+}
+
+@media (max-width: 500px) {
+  .bookPageDiv {
+    flex-direction: column-reverse;
+  }
+
+  .bookPageImage {
+    margin: 0 auto;
+    justify-content: center;
+    }
 }
