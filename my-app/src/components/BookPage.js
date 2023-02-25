@@ -3,7 +3,9 @@ import { useParams } from 'react-router-dom'
 import booksObject from "../assets/books.json"
 const BookPage = () => {
     const { bookId } = useParams()
-    const details = booksObject["Books"][bookId]
+    const [details] = booksObject["Books"].filter(element => {
+        return element.Id === parseInt(bookId)
+    })
     return(
         <>
         <div className='bookPageDiv'>
@@ -14,11 +16,6 @@ const BookPage = () => {
                 <br/>
                 <p>{details.Blurb}</p>
                 <p>Tags: {details.Themes.join(", ")}</p>
-                {/* <ul>
-                    {details.Themes.map((theme, id) => {
-                        return <li key={id}>{theme}</li>
-                    })}
-                </ul> */}
             </div>
             <div className='bookPageImageDiv'>
                 <img className='bookPageImage' alt={"SF Masterworks cover"} src={details.Image} />

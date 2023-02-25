@@ -4,6 +4,7 @@ import booksObject from "../assets/books.json"
 const Books = () => {
     const [themeArray, setThemeArray] = useState([])
     const [sort, setSort] = useState("")
+
     const manageThemeArray = (value) => {
         if (themeArray.includes(value)) {
             setThemeArray(themeArray.filter(element => {
@@ -15,17 +16,12 @@ const Books = () => {
         }
     }
 
-    const manageSortArray = (keyArray, sortValue) => {
-        const detailArray = keyArray.map(element => {
-            return booksObject["Books"][element]
-        })
+    const manageSortArray = (bookArray, sortValue) => {
         switch(sortValue) {
             case "AZ":
-                console.log(detailArray);
-                detailArray.sort((a, b) => {
-                    let fa = a.Title.toLowerCase(),
-                        fb = b.Title.toLowerCase();
-                
+                bookArray.sort((a, b) => {
+                    let fa = a.Title;
+                    let fb = b.Title;
                     if (fa < fb) {
                         return -1;
                     }
@@ -34,25 +30,33 @@ const Books = () => {
                     }
                     return 0;
                 });
-                console.log(detailArray);
-                console.log(Object.keys(detailArray));
-                console.log(keyArray);
-              return keyArray;
-            case "Rating":
-                console.log("Rating");
-              return keyArray;
+              return bookArray;
+            case "RatingHL":
+                bookArray.sort((a, b) => {
+                    return b.Rating - a.Rating
+                });
+              return bookArray;
+              case "RatingLH":
+                bookArray.sort((a, b) => {
+                    return a.Rating - b.Rating
+                });
+              return bookArray;
             default:
-              return keyArray;
+                bookArray.sort((a, b) => {
+                    return a.Id - b.Id
+                });
+              return bookArray;
           }
     }
 
     const filterTheme = (themes) => {
         return themeArray.every(element => themes.includes(element))
     }
-    const bookKeys = Object.keys(booksObject["Books"])
-    const sortedBookKeys = manageSortArray(bookKeys, sort)
-    const filteredBookKeys = sortedBookKeys.filter(element => {
-        return filterTheme(booksObject["Books"][element].Themes)
+    
+    const bookArray = booksObject["Books"]
+    const sortedBookArray = manageSortArray(bookArray, sort)
+    const filteredBookArray = sortedBookArray.filter(element => {
+        return filterTheme(element.Themes)
     })
 
     return(
@@ -62,7 +66,8 @@ const Books = () => {
         <select name="bookSort" id="bookSort" onChange={(e) => {setSort(e.target.value)}}>
         <option value="Default">Default</option>  
         <option value="AZ">A-Z</option>
-        <option value="Rating">Rating</option>
+        <option value="RatingHL">{`Rating (Best first)`}</option>
+        <option value="RatingLH">{`Rating (Worst first)`}</option>
         </select>
         {booksObject.Themes.map((element, id) => {
             return (
@@ -74,9 +79,9 @@ const Books = () => {
         })}
         <div className="allBooks">
             
-        {filteredBookKeys.map(element => {
+        {filteredBookArray.map(element => {
             return (
-                <BookTile key={element} id={element} details={booksObject["Books"][element]}/>
+                <BookTile key={element.Id} id={element.Id} details={element}/>
             )
         })}
         </div>
