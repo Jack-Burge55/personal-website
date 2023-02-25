@@ -13,11 +13,12 @@ const BookPage = () => {
                 <h4>{"⭐".repeat(details.Rating)} ({(details.Rating)}/10)</h4>
                 <br/>
                 <p>{details.Blurb}</p>
-                <ul>
+                <p>Tags: {details.Themes.join(", ")}</p>
+                {/* <ul>
                     {details.Themes.map((theme, id) => {
                         return <li key={id}>{theme}</li>
                     })}
-                </ul>
+                </ul> */}
             </div>
             <div className='bookPageImageDiv'>
                 <img className='bookPageImage' alt={"SF Masterworks cover"} src={details.Image} />

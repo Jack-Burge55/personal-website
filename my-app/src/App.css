@@ -1,6 +1,11 @@
-.App {
+html {
   text-align: center;
   min-width: 320px;
+  background-color: #E8FFFB;
+}
+
+a {
+  text-decoration: none;
 }
 
 .allBooks {
@@ -18,6 +23,10 @@
   min-width: 150px;
 }
 
+.bookTileTitle {
+  color: black;
+}
+
 .bookTileImage {
   margin: 0 auto;
   width: 50%;
@@ -25,6 +34,7 @@
   object-fit: contain;
   overflow: hidden;
   min-width: 100px;
+  margin-bottom: 20px;
 }
 
 .bookPageDiv {
