@@ -3,6 +3,7 @@ import BookTile from './BookTile';
 import booksObject from "../assets/books.json"
 const Books = () => {
     const [themeArray, setThemeArray] = useState([])
+    const [searchValue, setSearchValue] = useState("")
     const [sort, setSort] = useState("")
 
     const manageThemeArray = (value) => {
@@ -49,19 +50,20 @@ const Books = () => {
           }
     }
 
-    const filterTheme = (themes) => {
-        return themeArray.every(element => themes.includes(element))
+    const filterFunction = (themes, title, author) => {
+        return (themeArray.every(element => themes.includes(element)) && (title.toLowerCase().includes(searchValue) || author.toLowerCase().includes(searchValue)))
     }
-    
+
     const bookArray = booksObject["Books"]
     const sortedBookArray = manageSortArray(bookArray, sort)
     const filteredBookArray = sortedBookArray.filter(element => {
-        return filterTheme(element.Themes)
+        return filterFunction(element.Themes, element.Title, element.Author)
     })
 
     return(
         <>
         <h2>SF Masterworks Collection</h2>
+        <input placeholder='Filter by title or author' onChange={(e) => {setSearchValue(e.target.value)}}></input>
         <label htmlFor="cars">Sort by: </label>
         <select name="bookSort" id="bookSort" onChange={(e) => {setSort(e.target.value)}}>
         <option value="Default">Default</option>  
