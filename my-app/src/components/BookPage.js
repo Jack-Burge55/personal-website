@@ -22,7 +22,7 @@ const BookPage = () => {
             </div>
         </div>
 
-        <p className='bookPageQuote'>“ {details.Quote} ”</p>
+        {details.Quote && <p className='bookPageQuote'>“ {details.Quote} ”</p>}
         {details.Review.map((paragraph, id) => {
             return (
             <div key={id}>
