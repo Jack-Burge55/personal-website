@@ -22,11 +22,11 @@ const BookPage = () => {
             </div>
         </div>
 
-        <p className='bookPageQuote'>{details.Quote}</p>
-        {Object.keys(details.Review).map((paragraphKey, id) => {
+        <p className='bookPageQuote'>“ {details.Quote} ”</p>
+        {details.Review.map((paragraph, id) => {
             return (
             <div key={id}>
-                <p>{details.Review[paragraphKey]}</p>
+                <p>{paragraph}</p>
             </div>
             )
         })}
