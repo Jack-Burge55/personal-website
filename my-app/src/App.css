@@ -2,10 +2,39 @@ html {
   text-align: center;
   min-width: 320px;
   background-color: #E8FFFB;
+  margin: 0 20px;
 }
 
 a {
   text-decoration: none;
+  color: black;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+nav {
+  border-bottom: rgb(59, 103, 114) solid 5px;
+  margin-bottom: 10px;
+}
+
+.navLogo {
+  height: 38px;
+  float: left;
+}
+
+nav ul {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+nav ul li {
+  background-color: rgb(150, 194, 211);
+  display: inline;
+  font-size: 25px;
+  padding: 5px;
+  margin: 0 20px;
 }
 
 .allBooks {

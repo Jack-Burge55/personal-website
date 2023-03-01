@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 const About = () => {
     return(
-        <h2>About</h2>
+        <h1>About</h1>
     )
 }
 export default About;

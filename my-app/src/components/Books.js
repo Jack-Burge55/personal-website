@@ -62,7 +62,7 @@ const Books = () => {
 
     return(
         <>
-        <h2>SF Masterworks Collection</h2>
+        <h1>SF Masterworks Collection</h1>
         <input placeholder='Filter by title or author' onChange={(e) => {setSearchValue(e.target.value)}}></input>
         <label htmlFor="cars">Sort by: </label>
         <select name="bookSort" id="bookSort" onChange={(e) => {setSort(e.target.value)}}>
