@@ -63,22 +63,24 @@ const Books = () => {
     return(
         <>
         <h1>SF Masterworks Collection</h1>
-        <input placeholder='Filter by title or author' onChange={(e) => {setSearchValue(e.target.value)}}></input>
-        <label htmlFor="cars">Sort by: </label>
+        <div className='bookSelectors'>
+        <input id="bookSearch" placeholder='Filter by title or author' onChange={(e) => {setSearchValue(e.target.value)}}></input>
         <select name="bookSort" id="bookSort" onChange={(e) => {setSort(e.target.value)}}>
         <option value="Default">Default</option>  
         <option value="AZ">A-Z</option>
         <option value="RatingHL">{`Rating (Best first)`}</option>
         <option value="RatingLH">{`Rating (Worst first)`}</option>
         </select>
-        {booksObject.Themes.map((element, id) => {
+        </div>
+        <div className='themeSelectors'>{booksObject.Themes.map((element, id) => {
             return (
                 <div key={`div${id}`}>
-                    <input type="checkbox" key={`input${id}`} id={`theme${id}`} name="vehicle1" value={element} onChange={(e) => {manageThemeArray(e.target.value)}}/>
+                    <input type="checkbox" key={`input${id}`} id={`theme${id}`} name="theme" value={element} onChange={(e) => {manageThemeArray(e.target.value)}}/>
                     <label  key={`label${id}`} htmlFor={`theme${id}`}>{element}</label>
                 </div>
             )
         })}
+        </div>
         <div className="allBooks">
             
         {filteredBookArray.map(element => {

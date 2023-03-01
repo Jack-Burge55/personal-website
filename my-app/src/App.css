@@ -41,6 +41,21 @@ nav ul li {
   width: 100%;
 }
 
+.bookSelectors {
+  margin: 0 auto;
+}
+
+#bookSearch {
+  margin-right: 30px;
+}
+
+.themeSelectors {
+  width: 75%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
 .bookTileSquare {
   display: inline-grid;
   margin: 5px;
@@ -85,6 +100,12 @@ width: 250px;
 .bookPageQuote {
   font-style: italic;
   font-size: larger;
+}
+
+@media (max-width: 1000px) {
+  .themeSelectors {
+    display: contents;
+  }
 }
 
 @media (max-width: 500px) {
