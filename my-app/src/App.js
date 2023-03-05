@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import Books from './components/Books';
 import About from "./components/About";
 import BookPage from './components/BookPage';
+import SantoriniPage from "./components/SantoriniPage";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route path="/book/:bookId" element={<BookPage bookId/>} />
         <Route path="/books" element={<Books />} />
+        <Route path="/santorini" element={<SantoriniPage />} />
         <Route path="/about" element={<About />} />
         <Route path="*" component={() => <h2>404 Not Found </h2>} />
       </Routes>
