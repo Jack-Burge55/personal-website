@@ -37,6 +37,10 @@ nav ul li {
   margin: 0 20px;
 }
 
+.textLink {
+  font-weight: 600;
+}
+
 .allBooks {
   width: 100%;
 }
@@ -100,6 +104,10 @@ width: 250px;
 .bookPageQuote {
   font-style: italic;
   font-size: larger;
+}
+
+.santoriniPicture {
+  width: 25%;
 }
 
 @media (max-width: 1000px) {
