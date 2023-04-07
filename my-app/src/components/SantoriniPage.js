@@ -10,7 +10,7 @@ const SantoriniPage = () => {
         <p>If you love puzzles, board games, and some cleverly hidden maths, you'll love the board game Santorini, created by Dr. Gordon Hamilton. The game was initially released as a purely abstract game in 2004, but was re-released as an incredibly popular kickstarter over a decade later in a new, Greek mythology cartoon style. The game has a different dynamic depending on the number of players, from a 2 player head to head duel to teams appearing in a 4 player game.</p>
         <p>Further, the game can also be played in a variety of ways, the simplest being a purely logical and evenly matched duel, or with each player taking control of one of 45 mythological figures with unique powers to best their opponent. I have, along with a good friend, created house variants too, keeping the game continuously fresh.</p>
         <p>I think this game is great for a few reasons. The art style is great, the rules are simple to learn but the strategy is deep, the replayability is huge among the different god card match-ups, however my favourite thing about this game is the subtle maths and deep strategies hidden just under the surface.</p>
-        <img className='santoriniPicture' src={SantoPhoto} alt="The Santorini board game" title="A pretty clear win for white in this game"/>
+        <img className='photo' src={SantoPhoto} alt="The Santorini board game" title="A pretty clear win for white in this game"/>
         <h2>Rules</h2>
         <p>The game takes place on a 5x5 square grid. 
         Each player controls 2 builders, who each take a square and cannot share a square with any other builder. 
@@ -50,7 +50,7 @@ const SantoriniPage = () => {
             Like a check in chess, this restricts the other players progression and can even result in them dropping down in height with a builder to prevent your win. 
             Bringing them down is the next best thing to climbing up yourself!</p>
         <h2>Program Project</h2>
-        <img className='santoriniPicture' src={SantoProgram} alt="A screenshot of my Santorini pygame program" title='the same layout as above, as played in my pygame project'/>
+        <img className='photo' src={SantoProgram} alt="A screenshot of my Santorini pygame program" title='the same layout as above, as played in my pygame project'/>
         <p>While now a front end developer with JavaScript as my primary language, I learnt to code in Python. 
             One of the projects I was really excited to create was a basic, two player Santorini in pygame. 
             You can see above the program in action. This was a great small program to learn pygame and solidify my initial python understanding. 

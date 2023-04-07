@@ -200,6 +200,26 @@
                 "Sodales ut etiam sit amet nisl purus in. Nibh tellus molestie nunc non. Ultrices dui sapien eget mi proin sed. Orci a scelerisque purus semper eget duis at tellus at. Amet commodo nulla facilisi nullam vehicula ipsum a. Aliquet lectus proin nibh nisl condimentum id venenatis a. Iaculis nunc sed augue lacus. Orci ac auctor augue mauris augue neque gravida in fermentum. Sem viverra aliquet eget sit amet tellus cras adipiscing. Massa massa ultricies mi quis hendrerit."],
             "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2020/10/hbg-title-9781473232457-18.jpg?fit=440%2C675",
             "Themes": ["Interesting Aliens", "Plot Twist", "Good Writing", "Fun to read", "Realistic"]
+        },
+        {
+            "Id": 17,
+            "Title": "The Man Who Fell to Earth",
+            "Author": "Walter Tevis",
+            "Blurb": "Thomas Jerome Newton is an extraterrestrial from the planet Anthea, which has been devastated by a series of nuclear wars and whose inhabitants are twice as intelligent as human beings. When he lands on Earth—in Kentucky, disguised as a human—it's with the intention of saving his own people from extinction. Newton patents some very advanced Anthean technology, which he uses to amass a fortune. He begins to build a spaceship to help the last 300 Antheans migrate to Earth. Meanwhile, Nathan Bryce, a chemistry professor in Iowa, is intrigued by some of the new products Newton's company brings to the market and already suspects Newton of being an alien. As Bryce and the FBI close in, Newton finds his own clarity and sense of purpose diminishing.",
+            "Rating": 6,
+            "Review": ["Great ending"],
+            "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9781473213111-232.jpg?fit=442%2C675",
+            "Themes": ["Interesting Aliens", "Good Writing", "Plot Twist", "Realistic"]
+        },
+        {
+            "Id": 18,
+            "Title": "Roadside Picnic",
+            "Author": "Arkady & Boris Strugatsky",
+            "Blurb": "Red Schuhart is a stalker, one of those strange misfits who are compelled by some unknown force to venture illegally into the Zone and, in spite of the extreme danger, collect the mysterious artefacts that the alien visitors left scattered around. His life is dominated by the Zone and the thriving black market in the alien products. Even the nature of his daughter has been determined by the Zone. And it is for her that Red makes his last, tragic foray into the hazardous and hostile depths.",
+            "Rating": 3,
+            "Review": ["Great ending"],
+            "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575093133-444.jpg?fit=440%2C675",
+            "Themes": ["Set On Earth","Realistic"]
         }
     ]
     
