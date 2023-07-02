@@ -220,6 +220,16 @@
             "Review": ["Great ending"],
             "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575093133-444.jpg?fit=440%2C675",
             "Themes": ["Set On Earth","Realistic"]
+        },
+        {
+            "Id": 19,
+            "Title": "Blood Music",
+            "Author": "Greg Bear",
+            "Blurb": "Virgil Ulam is a maverick researcher working on biochips which will use DNA as a means of information processing. Ignoring guidelines for genetic research, he goes further, producing intelligent cellular matter which can outperform laboratory rats. On being found out and ordered to destroy the experiment, he injects himself with some of the culture, and walks out carrying a seed which will develop far beyond the limits of his brilliant but blinkered imagination.",
+            "Rating": 9,
+            "Review": ["Great ending"],
+            "Image": "https://www.sfgateway.com/wp-content/uploads/2013/12/Blood-Music.jpg",
+            "Themes": ["Plot Twist", "Set On Earth", "Good Writing", "Fun to read", "Realistic", "Modern"]
         }
     ]
     

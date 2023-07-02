@@ -110,6 +110,49 @@ width: 250px;
   width: 25%;
 }
 
+/* React page start */
+
+.reactHead {
+  width: 500px;
+  height: 100px;
+  background-color: cyan;
+}
+
+.reactBody {
+  width: 500px;
+  height: 600px;
+  background-color: red;
+  overflow: hidden;
+}
+
+.checkoutColumn {
+  width: 98px;
+  height: 600px;
+  background-color: yellow;
+  float: left;
+  border: 1px solid black;
+}
+
+.checkoutHead {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+}
+
+.checkoutQueue {
+  width: 100px;
+  height: 500px;
+  background-color: green;
+}
+
+.checkoutItem {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+/* React page end */
+
 @media (max-width: 1000px) {
   .themeSelectors {
     display: contents;

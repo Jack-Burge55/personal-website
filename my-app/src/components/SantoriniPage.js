@@ -59,9 +59,27 @@ const SantoriniPage = () => {
             And if you want to contribute, please  be my guest!
         </p>
         <h2>SantorinAI</h2>
-        <p>One future project I'd really love to do is learn how to and then create a Santorini engine, an AI with different playstyles to play against. 
-            For this, I'd have to focus on the simple 2 player no gods variant, but I think there'd be some fascinating discoveries. 
-            To the best of my knowledge this game isn't solved, so it would be great to see how the AI would act, and if any new strategies were discovered. Watch this space!</p>
+        <p>More recently, I started work on creating a playable Santorini AI engine with the target of being a better player than I am. In total, I made 3 different engines for the game.
+            The first was a totally random engine. On the computers turn, it would select a random builder it controls with at least one available move, then make a random possible move 
+            and finally make a random build. When pitting this engine against itself, games lasted a long time and frequently ended in a win for a side due to the other side losing both builders 
+            when getting trapped. 
+        </p>
+        <p>The second engine I made was very similar to the first, with a single vital improvement. I named this engine the greedy height engine, because on its turn it would consider all possible moves and pick one at random that went to the
+            greatest height possible between the both builders. This means that if a builder could move up it would take this move, else it would cut losses by moving a builder across or down as few blocks 
+            as possible. The subsequent build was still random, similar to the random engine. This engine is clearly better than the random move engine in most cases, and in a competition 
+            of a total of 1000 games the greedy height engine beat the random engine 994 out of 1000 games!
+        </p>
+        <p>At this point, I felt confident in the logic for building engines, and wanted to make a genuinely good player. Also by now I had created multiple helper functions in a utility folder, so 
+            I wasn't having to repeat a lot of the logic. My third and currently best engine was the minimax engine. This engine contains the functionality to check a certain boards layout and assign it a score
+             from the perspective of a player, where the greater the score, the stronger the players position. I made this evaluator based off a few different considerations of both players (positive for players own builders and negative for opponents pieces). 
+             These were: Builder heights, adjacent blocks one height higher to each builder, adjacent blocks same height as each builder and finally whether a builder has won the game by standing on a three height tower.
+             From this, I followed a minimax algorithm looking a total of three turns ahead (players, opponents, players) and picked the move which gave the greatest possible minimum evaluation.
+             I also improved the efficiency of the minimax algorithm by including alpha-beta pruning, which ignores further computation of possible moves that we can be sure don't matter to the eventual choice of moves.
+             I was delighted when this engine beat the greedy height engine 999 games out of 1000, as well as beating my friend in person.
+        </p>
+        <p>I'd like to come back to this in the future and add more to this project, including more engines, a choice for which engine to play and a UI for a visitor to easily play against the engine on a web page.
+            If you're interested and would like to see the code I've mentioned above, please check out the repository for this project <a href="https://github.com/Jack-Burge55/santorini-engine" target="_blank" className='textLink'>here!</a>
+        </p>
         </>
     )
 }
