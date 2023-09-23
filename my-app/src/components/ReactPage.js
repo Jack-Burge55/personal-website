@@ -64,17 +64,20 @@ const ReactPage = () => {
 
     return(
         <>
+        <h1>React Supermarket Exercise</h1>
         <div className='reactHead'>
             <input placeholder="Add Customer" value={newItem} onChange={(e) => {setNewItem(e.target.value !== "" ? parseInt(e.target.value, 10) : "")}}></input>
-            <button onClick={() => addNewItem()}>Checkout</button>
+            <button type='button' onClick={() => addNewItem()}>Checkout</button>
             <br/>
-            <button onClick={() => changeQueueCount(-1)}>Reduce Queue Count</button>
-            <input value={checkoutQueues.length} disabled={true} style={{width: 20}}></input>
-            <button onClick={() => changeQueueCount(1)}>Increase Queue Count</button>
             <br/>
-            <button onClick={() => setScanRate(scanRate > 1 ? scanRate - 1 : 1)}>Reduce Scan rate</button>
-            <input value={scanRate} disabled={true} style={{width: 20}}></input>
-            <button onClick={() => setScanRate(scanRate + 1)}>Increase Scan rate</button>
+            <button type='button' onClick={() => changeQueueCount(-1)}>Reduce Checkout Count</button>
+            <input title="Checkout Count" value={checkoutQueues.length} disabled={true} style={{width: 20}}></input>
+            <button type='button' onClick={() => changeQueueCount(1)}>Increase Checkout Count</button>
+            <br/>
+            <br/>
+            <button type='button' onClick={() => setScanRate(scanRate > 1 ? scanRate - 1 : 1)}>Reduce Scan rate</button>
+            <input title="Scan Rate" value={scanRate} disabled={true} style={{width: 20}}></input>
+            <button type='button' onClick={() => setScanRate(scanRate + 1)}>Increase Scan rate</button>
         </div>
         <div className='reactBody'>
             {checkoutQueues.map((checkout, checkoutId) => {
@@ -90,6 +93,22 @@ const ReactPage = () => {
             </div>)
             })}
         </div>
+        <h2>Instructions</h2>
+        <p>Welcome to the supermarket! To add a customer, input a number into the
+            checkout input box and click the Checkout button to add them. The customer automatically goes to the queue with the shortest wait, even if this queue has more 
+            customers in it compared to another queue with fewer customers with more items. Each second, each queue scans through a number of items from the current customer equal to the scan rate selected.
+            You can also change the number of checkouts by clicking the buttons for Checkout Count, however a checkout can't be removed if it has customers waiting in the queue.
+        </p>
+        <h2>Coding Comments</h2>
+        <p>This exercise was inspired by <a href="https://www.youtube.com/watch?v=B9fmr1TpKHE&t=184s" target="_blank" className='textLink'>this youtube video</a>. 
+        This is a basic model of a supermarket checkout, where there can be multiple checkouts which scan through items from separate customers. So, in terms of data,
+         we have multiple items: checkouts, customers and items. We also have two different variables, the number of checkout queues and the rate that each queue scans
+         through items.
+        </p>
+        <p>One of the most important lessons I learnt when starting to code in React was the importance of selecting the right things to be React states, and to have as 
+            few as required. For example, in this exercise I have chosen only 3 states: the current input in the checkout box, the scan rate and an array of arrays of items.
+            There is no need to split up each queue into its own state, as this complicates things for our requirements. 
+        </p>
         </>
     )
 }

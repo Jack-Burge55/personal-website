@@ -42,6 +42,16 @@ const Books = () => {
                     return a.Rating - b.Rating
                 });
               return bookArray;
+              case "AgeON":
+                bookArray.sort((a, b) => {
+                    return a.PublishDate - b.PublishDate
+                });
+              return bookArray;
+              case "AgeNO":
+                bookArray.sort((a, b) => {
+                    return b.PublishDate - a.PublishDate
+                });
+              return bookArray;
             default:
                 bookArray.sort((a, b) => {
                     return a.Id - b.Id
@@ -70,6 +80,8 @@ const Books = () => {
         <option value="AZ">A-Z</option>
         <option value="RatingHL">{`Rating (Best first)`}</option>
         <option value="RatingLH">{`Rating (Worst first)`}</option>
+        <option value="AgeON">{`Date Published (Oldest first)`}</option>
+        <option value="AGENO">{`Date Published (Newest first)`}</option>
         </select>
         </div>
         <div className='themeSelectors'>{booksObject.Themes.map((element, id) => {
