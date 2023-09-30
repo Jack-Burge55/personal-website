@@ -75,7 +75,7 @@ const Books = () => {
         <h1>SF Masterworks Collection</h1>
         <div className='bookSelectors'>
         <input id="bookSearch" placeholder='Filter by title or author' onChange={(e) => {setSearchValue(e.target.value)}}></input>
-        <select name="bookSort" id="bookSort" onChange={(e) => {setSort(e.target.value)}}>
+        <select name="bookSort" title= "bookSort" id="bookSort" onChange={(e) => {setSort(e.target.value)}}>
         <option value="Default">Default</option>  
         <option value="AZ">A-Z</option>
         <option value="RatingHL">{`Rating (Best first)`}</option>

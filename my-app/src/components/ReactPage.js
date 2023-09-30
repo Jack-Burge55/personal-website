@@ -70,9 +70,9 @@ const ReactPage = () => {
             <button type='button' onClick={() => addNewItem()}>Checkout</button>
             <br/>
             <br/>
-            <button type='button' onClick={() => changeQueueCount(-1)}>Reduce Checkout Count</button>
+            <button type='button' onClick={() => changeQueueCount(-1)}>Reduce Checkouts</button>
             <input title="Checkout Count" value={checkoutQueues.length} disabled={true} style={{width: 20}}></input>
-            <button type='button' onClick={() => changeQueueCount(1)}>Increase Checkout Count</button>
+            <button type='button' onClick={() => changeQueueCount(1)}>Increase Checkouts</button>
             <br/>
             <br/>
             <button type='button' onClick={() => setScanRate(scanRate > 1 ? scanRate - 1 : 1)}>Reduce Scan rate</button>
@@ -100,7 +100,7 @@ const ReactPage = () => {
             You can also change the number of checkouts by clicking the buttons for Checkout Count, however a checkout can't be removed if it has customers waiting in the queue.
         </p>
         <h2>Coding Comments</h2>
-        <p>This exercise was inspired by <a href="https://www.youtube.com/watch?v=B9fmr1TpKHE&t=184s" target="_blank" className='textLink'>this youtube video</a>. 
+        <p>This exercise was inspired by <a href="https://www.youtube.com/watch?v=B9fmr1TpKHE&t=184s" target="_blank" rel="noreferrer" className='textLink'>this youtube video</a>. 
         This is a basic model of a supermarket checkout, where there can be multiple checkouts which scan through items from separate customers. So, in terms of data,
          we have multiple items: checkouts, customers and items. We also have two different variables, the number of checkout queues and the rate that each queue scans
          through items.
