@@ -7,7 +7,8 @@
             "Good Writing",
             "Fun to Read",
             "Realistic",
-            "Modern"
+            "Modern",
+            "Compilation"
         ],
     "Books": 
         [{
@@ -272,6 +273,30 @@
             "Review": ["Review to follow..."],
             "Image": "https://www.sfgateway.com/wp-content/uploads/2018/07/hbg-title-9780575094192-303.jpg?w=439",
             "Themes": ["Plot Twist", "Set On Earth", "Good Writing", "Fun to Read"]
+        },
+        {
+            "Id": 22,
+            "Title": "The Wind's Twelve Quarters & The Compass Rose",
+            "Author": "Ursula K. Le Guin",
+            "Blurb": "Grand Master Ursula K. Le Guin has been recognised for almost fifty years as one of the most important writers in the SF field - and is likewise feted beyond the confines of the genre. The Wind's Twelve Quarters was her first collection and it brings together some of the finest short fiction, including the Hugo Award-winning 'The Ones Who Walk Away from Omelas', the Nebula Award-winning 'The Day Before the Revolution', and the Hugo-nominated 'Winter's King', which gave readers their first glimpse of the world later made famous in her Hugo- and Nebula-winning masterpiece The Left Hand of Darkness.",
+            "Quote": "'How far a journey, Lord?' His lips drew back and back. 'A very far journey, Lady. Yet it will last only one long night.'",
+            "Rating": 5,
+            "PublishDate": "1982",
+            "Review": ["Review to follow..."],
+            "Image": "https://www.sfgateway.com/wp-content/uploads/2018/07/hbg-title-9781473205765-368.jpg?w=441",
+            "Themes": ["Fun to Read", "Good Writing", "Set On Earth", "Compilation"]
+        },
+        {
+            "Id": 23,
+            "Title": "The Andromeda Anthology",
+            "Author": "Fred Hoyle & John Elliot",
+            "Blurb": "In addition to being the man who coined the term 'the Big Bang', world-renowned astronomer Sir Fred Hoyle also produced a fine body of science fiction. The Andromeda Anthology contains the acclaimed duology A for Andromeda and The Andromeda Breakthrough, co-written with John Elliot. The close-knit group of scientists who work at the new radio telescope are shocked to receive a mysterious signal from the heart of the Andromeda galaxy. Working with mathematician Christine Jones, Dr John Fleming interprets the signal as the instructions to build a super-computer. When the computer begins to relay the information it receives from Andromeda, scientists find themselves possessing knowledge previously unknown to mankind, knowledge that could threaten the security of human life itself.",
+            "Quote": "'We shall not need Dr. Fleming,' she said, and something about her calm, measured voice ran like a cold shadow across the sunlight.",
+            "Rating": 7,
+            "PublishDate": "1964",
+            "Review": ["Review to follow..."],
+            "Image": "https://www.sfgateway.com/wp-content/uploads/2020/01/hbg-title-9781473230118-73.jpg?w=450",
+            "Themes": ["Fun to Read", "Interesting Aliens", "Plot Twist", "Realistic", "Set On Earth", "Compilation"]
         }
     ]
     
