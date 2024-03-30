@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding-top: 60px;
   font-family: 'Ubuntu', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -8,4 +9,16 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.hide-small-screens {
+  @media screen and (width <= 1024px) {
+    display: none;
+  }
+}
+
+.hide-large-screens {
+  @media screen and (width > 1024px) {
+    display: none;
+  }
 }

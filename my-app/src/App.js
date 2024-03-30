@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import Books from './components/Books';
 import ReactPage from './components/ReactPage';
 import About from "./components/About";
+import Projects from "./components/Projects"
 import BookPage from './components/BookPage';
 import SantoriniPage from "./components/SantoriniPage";
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/books" element={<Books />} />
         <Route path="/santorini" element={<SantoriniPage />} />
         <Route path="/react" element={<ReactPage />} />
+        <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<About />} />
         <Route path="*" component={() => <h2>404 Not Found </h2>} />
       </Routes>

@@ -14,69 +14,6 @@ a {
   display: none;
 }
 
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: #53b2f1;
-  overflow: hidden;
-  display: flex;
-}
-
-.topnav ul {
-  width: 100%;
-  padding-left: 0px;
-}
-
-/* Style the links inside the navigation bar */
-.topnav ul li {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav ul li a {
-  padding: 15px;
-  display: block;
-}
-
-/* Change the color of links on hover */
-.topnav ul li:hover {
-  background-color: #3c8eaf;
-  color: black;
-}
-
-/* Hide the link that should open and close the topnav on small screens */
-.topnav .icon {
-  display: none;
-}
-
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 600px) {
-  .topnav ul li {display: none;}
-  .topnav ul li.icon {
-    float: left;
-    display: block;
-    padding: 15px;
-  }
-}
-
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive ul li {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-}
-
 hr.solid {
   border-top: rgb(59, 103, 114) solid 2px;
 }
@@ -93,9 +30,6 @@ hr.solid {
   margin: 0 auto;
 }
 
-#bookSort {
-  margin: 15px;
-}
 
 .themeSelectors {
   width: 75%;
@@ -104,7 +38,7 @@ hr.solid {
   justify-content: space-around;
 }
 
-.bookTileSquare {
+.tileSquare {
   display: inline-grid;
   margin: 5px;
   width: 24%;
@@ -113,13 +47,14 @@ hr.solid {
   border-width: 3px;
   border-color: black;
   min-width: 150px;
+  box-shadow: 2px 5px 5px;
 }
 
-.bookTileTitle {
+.tileTitle {
   color: black;
 }
 
-.bookTileImage {
+.tileImage {
   margin: 0 auto;
   width: 50%;
   height: 90%;
@@ -164,8 +99,7 @@ width: 250px;
 
 .reactHead {
   width: 95%;
-  height: 100px;
-  background-color: cyan;
+  background-color: rgb(163, 255, 255);
 }
 
 .reactBody {
@@ -174,6 +108,11 @@ width: 250px;
   display: flex;
   flex-wrap: wrap;
   max-width: 95%;
+}
+
+.reactInput {
+  width: 90px;
+  text-align: center;
 }
 
 .checkoutColumn {
@@ -189,21 +128,17 @@ width: 250px;
   height: 100px;
   background-color: pink;
   border: 1px solid black;
+  border-radius: 5%;
   display: flex;
   justify-content:center;
   align-items:center;
-}
-
-.checkoutQueue {
-  width: 100px;
-  height: max-content;
-  background-color: green;
 }
 
 .checkoutItem {
   width: 100px;
   height: 100px;
   background-color: rgb(133, 133, 212);
+  border-radius: 5%;
   display: flex;
   justify-content:center;
   align-items:center;
