@@ -18,10 +18,10 @@ const Navbar = () => {
     }
   };
 
-  const closeDesktopDropdown = () => {
-    const dropdown = document.getElementById("desktopDropdown")
-    dropdown.classList.remove("is-active")
-  };
+  // const closeDesktopDropdown = () => {
+  //   const dropdown = document.getElementById("desktopDropdown")
+  //   dropdown.classList.remove("is-active")
+  // };
 
   window.addEventListener("click", function (e) {
     const burger = document.getElementById("navbarBurger");
@@ -39,7 +39,7 @@ const Navbar = () => {
   return (
     <nav className="navbar is-fixed-top" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
-        <a className="navbar-item" href=".">
+        <a className="navbar-item" href="/">
       <img src={logo} alt="Simple logo saying Burgess" width="84" height="28"/>
     </a>
 
@@ -61,8 +61,8 @@ const Navbar = () => {
           <Link to="/" onClick={() => toggleBurgerMenu("close")} className="navbar-item">
             Home
           </Link>
-
-          <div className="navbar-item has-dropdown hide-small-screens" id={"desktopDropdown"} onMouseEnter={() => {
+          {/* Build issues */}
+          {/* <div className="navbar-item has-dropdown hide-small-screens" id={"desktopDropdown"} onMouseEnter={() => {
             const dropdown = document.getElementById("desktopDropdown")
             dropdown.classList.add("is-active")
           }} onMouseLeave={() => {
@@ -88,8 +88,8 @@ const Navbar = () => {
                 All Projects
               </Link>
             </div>
-          </div>
-          <Link to="/projects" onClick={() => toggleBurgerMenu("close")} className="navbar-item  hide-large-screens">
+          </div> */}
+          <Link to="/projects" onClick={() => toggleBurgerMenu("close")} className="navbar-item">
             Projects
           </Link>
           <Link to="/about" onClick={() => toggleBurgerMenu("close")} className="navbar-item">
