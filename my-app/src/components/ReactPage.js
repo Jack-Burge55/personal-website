@@ -70,7 +70,7 @@ const ReactPage = () => {
 
   return (
     <>
-      <h1>React Supermarket Exercise</h1>
+      <h1 className="title">React Supermarket Exercise</h1>
       <div className="reactHead">
         <input
           className="input reactInput"
@@ -91,7 +91,7 @@ const ReactPage = () => {
           type="button"
           onClick={() => changeQueueCount(-1)}
         >
-          Reduce Checkouts
+          - Checkouts
         </button>
         <input
           className="input reactInput"
@@ -104,7 +104,7 @@ const ReactPage = () => {
           type="button"
           onClick={() => changeQueueCount(1)}
         >
-          Increase Checkouts
+          + Checkouts
         </button>
         <br />
         <br />
@@ -113,7 +113,7 @@ const ReactPage = () => {
           type="button"
           onClick={() => setScanRate(scanRate > 1 ? scanRate - 1 : 1)}
         >
-          Reduce Scan rate
+          - Scan rate
         </button>
         <input
           className="input reactInput"
@@ -126,7 +126,7 @@ const ReactPage = () => {
           type="button"
           onClick={() => setScanRate(scanRate + 1)}
         >
-          Increase Scan rate
+          + Scan rate
         </button>
       </div>
       <div className="reactBody">

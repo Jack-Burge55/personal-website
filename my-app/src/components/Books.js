@@ -22,15 +22,7 @@ const Books = () => {
     switch (sortValue) {
       case "AZ":
         bookArray.sort((a, b) => {
-          let fa = a.Title;
-          let fb = b.Title;
-          if (fa < fb) {
-            return -1;
-          }
-          if (fa > fb) {
-            return 1;
-          }
-          return 0;
+          return (a.Title < b.Title ? -1 : 1)
         });
         return bookArray;
       case "RatingHL":
@@ -77,13 +69,12 @@ const Books = () => {
 
   return (
     <>
-      <h1>SF Masterworks Collection</h1>
+      <h1 className="title">SF Masterworks Collection</h1>
       <div className="bookSelectors">
-        <div className="field is-grouped">
           <input
             className="input"
             id="bookSearch"
-            placeholder="Filter by title or author"
+            placeholder="Title/Author"
             onChange={(e) => {
               setSearchValue(e.target.value);
             }}
@@ -98,7 +89,7 @@ const Books = () => {
                 setSort(e.target.value);
               }}
             >
-              <option value="Default">Default</option>
+              <option value="When Read">When read</option>
               <option value="AZ">A-Z</option>
               <option value="RatingHL">{`Rating (Best first)`}</option>
               <option value="RatingLH">{`Rating (Worst first)`}</option>
@@ -107,7 +98,6 @@ const Books = () => {
             </select>
           </div>
         </div>
-      </div>
       <div className="themeSelectors">
         {booksObject.Themes.map((element, id) => {
           return (

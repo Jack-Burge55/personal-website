@@ -32,7 +32,7 @@ const BookPage = () => {
       {details.Quote && <p className="bookPageQuote">“ {details.Quote} ”</p>}
       {details.Review.map((paragraph, id) => {
         return (
-          <div key={id}>
+          <div key={id} className="bookParagraph">
             <p>{paragraph}</p>
           </div>
         );
