@@ -5,7 +5,7 @@ import SantoProgram from "../assets/SantoProgram.png";
 const SantoriniPage = () => {
   return (
     <>
-      <h1 className="title is-3">The Santorini Board Game</h1>
+      <h1 className="title">The Santorini Board Game</h1>
       <h2 className="title is-4">Introduction</h2>
       <p className="block">
         If you love puzzles, board games, and some cleverly hidden maths, you'll

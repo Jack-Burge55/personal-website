@@ -229,12 +229,14 @@ const sudokuMain = () => {
     <>
       <h1 className="title">Sudoku Solver</h1>
       {makeSquares()}
+      <div className="sudokuButtons">
       <button className="button" type="button" onClick={() => sudokuMain()}>
         Solve Sudoku :)
       </button>
       <button className="button" type="button" onClick={() => setSudokuState(emptyGrid)}>
         Clear Grid
       </button>
+      </div>
       {(sudokuState === "error") && <h3 className="title is-4 has-text-danger">Not a valid sudoku</h3>}
     </>
   );

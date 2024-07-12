@@ -18,11 +18,6 @@ const Navbar = () => {
     }
   };
 
-  // const closeDesktopDropdown = () => {
-  //   const dropdown = document.getElementById("desktopDropdown")
-  //   dropdown.classList.remove("is-active")
-  // };
-
   window.addEventListener("click", function (e) {
     const burger = document.getElementById("navbarBurger");
     const navMenu = document.getElementById("navbarMenu");
@@ -61,34 +56,6 @@ const Navbar = () => {
           <Link to="/" onClick={() => toggleBurgerMenu("close")} className="navbar-item">
             Home
           </Link>
-          {/* Build issues */}
-          {/* <div className="navbar-item has-dropdown hide-small-screens" id={"desktopDropdown"} onMouseEnter={() => {
-            const dropdown = document.getElementById("desktopDropdown")
-            dropdown.classList.add("is-active")
-          }} onMouseLeave={() => {
-            const dropdown = document.getElementById("desktopDropdown")
-            dropdown.classList.remove("is-active")
-          }}>
-            <Link to="/projects" onClick={() => toggleBurgerMenu("close")} className="navbar-link">
-              Projects
-            </Link>
-
-            <div className="navbar-dropdown">
-              <Link to="/books" className="navbar-item" onClick={() => closeDesktopDropdown()}>
-                SF Masterworks
-              </Link>
-              <Link to="/santorini" className="navbar-item" onClick={() => closeDesktopDropdown()}>
-                Santorini
-              </Link>
-              <Link to="/react" className="navbar-item" onClick={() => closeDesktopDropdown()}>
-                React
-              </Link>
-              <hr className="navbar-divider" />
-              <Link to="/projects" className="navbar-item" onClick={() => closeDesktopDropdown()}>
-                All Projects
-              </Link>
-            </div>
-          </div> */}
           <Link to="/projects" onClick={() => toggleBurgerMenu("close")} className="navbar-item">
             Projects
           </Link>
