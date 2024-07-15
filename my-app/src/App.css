@@ -78,6 +78,8 @@ hr.solid {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #b0ebe1;
+  border-radius: 5px;
 }
 
 .homeText {
@@ -117,6 +119,7 @@ hr.solid {
   border-style: solid;
   border-width: 3px;
   border-color: black;
+  border-radius: 5px;
   min-width: 150px;
   box-shadow: 2px 5px 5px;
 }
