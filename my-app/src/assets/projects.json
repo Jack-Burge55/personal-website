@@ -23,6 +23,12 @@
         "Title": "Sudoku",
         "LinkName": "sudoku",
         "Image": "./images/Sudoku.png"
+    },
+    {
+        "Id": 4,
+        "Title": "Farmazon",
+        "LinkName": "farmazon",
+        "Image": "./images/Farmazon.png"
     }
 ]
 }

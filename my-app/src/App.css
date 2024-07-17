@@ -10,11 +10,28 @@
   }
 }
 
+.landscape {
+  width: 75%
+}
+
+@media screen and (max-width: 600px) {
+  .landscape {
+    width: 100%;
+  }
+}
+
 html {
   text-align: center;
   min-width: 320px;
   background-color: #E8FFFB;
   margin: 0 20px;
+  margin-bottom: 60px;
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    margin: 0 5px
+  }
 }
 
 a {
