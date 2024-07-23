@@ -2,7 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import booksObject from "../assets/books.json";
 const BookPage = () => {
-  const { bookId } = useParams();
+  const { bookId } = useParams() as { bookId: string };
   const [details] = booksObject["Books"].filter((element) => {
     return element.Id === parseInt(bookId);
   });
