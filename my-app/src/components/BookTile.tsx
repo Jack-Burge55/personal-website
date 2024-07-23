@@ -1,6 +1,14 @@
 import {Link} from 'react-router-dom';
 
-const BookTile = (singleBookObject) => {
+type Book = {
+    id: number,
+    details: {
+        Title: string,
+        Image: string
+    }
+}
+
+const BookTile = (singleBookObject: Book) => {    
     return (
         <Link to={`/book/${singleBookObject.id}`} onClick={() => {window.scrollTo(0, 0)}}>
             <div className='tileSquare'>

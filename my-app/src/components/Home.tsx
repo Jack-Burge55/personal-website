@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+import CSS from "csstype"
 
-import booksObject from "../assets/books.json";
+import booksObject from "../assets/books.json"
 
 const Home = () => {
     const fontList = ["Franklin Gothic Medium", "Courier New", "Gill Sans", "Segoe UI", "Times New Roman", "Trebuchet MS", "Arial", "Cambria", "Georgia"]
@@ -9,22 +10,20 @@ const Home = () => {
     const booksArray = booksObject["Books"]
     const bookAddress = `/book/${booksArray[booksArray.length - 1]["Id"]}`
 
-    const title = document.querySelector(".landingTitle")
+    let titleStyles: CSS.Properties = {
+        fontFamily: fontList[counter]
+    }
 
-    const interval = setTimeout(() => {
-        const font = fontList[counter % fontList.length]
-        if (title) {
-            title.style["font-family"] = font
-        }
-        setCounter(counter + 1)
+    const interval = setTimeout(() => {        
+        setCounter((counter + 1) % fontList.length)
         return () => clearInterval(interval)
-    }, 500)
+    }, 500)    
 
     return(
         <>
         <div className='homePage'>
             <div className='homeSection'>
-            <h1 className='landingTitle'>Hello!</h1>
+            <h1 className='landingTitle' style={titleStyles}>Hello!</h1>
             </div>
             <div className='homeSection'>
                 <div className='homeQuarter'>
@@ -54,9 +53,7 @@ const Home = () => {
                         </Link>
                 </div>
             </div>
-        
         </div>
-        
         </>
     )
 }

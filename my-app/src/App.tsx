@@ -12,7 +12,6 @@ import Projects from "./components/Projects"
 import BookPage from './components/BookPage';
 import SantoriniPage from "./components/SantoriniPage";
 
-
 function App() {
 
   return (
@@ -20,7 +19,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="/book/:bookId" element={<BookPage bookId/>} />
+        <Route path="/book/:bookId" element={<BookPage/>} />
         <Route path="/books" element={<Books />} />
         <Route path="/santorini" element={<SantoriniPage />} />
         <Route path="/react" element={<ReactPage />} />

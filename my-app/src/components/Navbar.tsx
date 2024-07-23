@@ -4,17 +4,17 @@ import logo from "../assets/burgessLogo.png"
 
 const Navbar = () => {
 
-  const toggleBurgerMenu = (action) => {
+  const toggleBurgerMenu = (action: string) => {
     const burger = document.getElementById("navbarBurger");
     const navMenu = document.getElementById("navbarMenu");
-    if (burger.classList.contains("is-active") || action === "close") {
+    if (burger?.classList.contains("is-active") || action === "close") {
       // close navbar dropdown
-      burger.classList.remove("is-active");
-      navMenu.classList.remove("is-active");
+      burger?.classList.remove("is-active");
+      navMenu?.classList.remove("is-active");
     } else {
       // open navbar dropdown
-      burger.classList.add("is-active");
-      navMenu.classList.add("is-active");
+      burger?.classList.add("is-active");
+      navMenu?.classList.add("is-active");
     }
   };
 
@@ -22,12 +22,12 @@ const Navbar = () => {
     const burger = document.getElementById("navbarBurger");
     const navMenu = document.getElementById("navbarMenu");
     if (
-      !navMenu.contains(e.target) &&
-      !burger.contains(e.target) &&
-      navMenu.classList.contains("is-active")
+      !navMenu?.contains(e.target as Node) &&
+      !burger?.contains(e.target as Node) &&
+      navMenu?.classList.contains("is-active")
     ) {
       navMenu.classList.remove("is-active");
-      burger.classList.remove("is-active");
+      burger?.classList.remove("is-active");
     }
   });
 
@@ -41,7 +41,7 @@ const Navbar = () => {
         <button
           className="navbar-burger"
           id="navbarBurger"
-          onClick={() => toggleBurgerMenu()}
+          onClick={() => toggleBurgerMenu("")}
           aria-label="menu"
           aria-expanded="false"
         >

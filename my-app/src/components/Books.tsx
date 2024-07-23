@@ -2,11 +2,29 @@ import React, { useState } from "react";
 import BookTile from "./BookTile";
 import booksObject from "../assets/books.json";
 const Books = () => {
-  const [themeArray, setThemeArray] = useState([]);
+  const [themeArray, setThemeArray] = useState([] as theme[]);
   const [searchValue, setSearchValue] = useState("");
   const [sort, setSort] = useState("");
 
-  const manageThemeArray = (value) => {
+  // const enum theme {plotTwist = "Plot Twist", setOnEarth = "Set On Earth", interestingAliens = "Interesting Aliens", goodWriting = "Good Writing", funToRead = "Fun to Read", realistic = "Realistic", modern = "Modern", compilation = "Compilation" }
+  type theme = "Plot Twist" | "Set On Earth" | "Interesting Aliens" | "Good Writing" | "Fun to Read" | "Realistic" | "Modern" | "Compilation"
+  // const enum sortOption { AZ = "AZ", HighLow = "RatingHL", LowHigh = "RatingLH", OldNew = "AgeON", NewOld = "AgeNO", None = "" }
+  type sortOption = "AZ" | "RatingHL" | "RatingLH" | "AgeON" | "AgeNO" | "" 
+
+  type Book = {
+    Id: 0,
+    Title: string,
+    Author: string,
+    Blurb: string,
+    Quote: string,
+    Rating: number,
+    PublishDate: string,
+    Review: string[]
+    Image: string,
+    Themes: theme[]
+}
+
+  const manageThemeArray = (value: theme) => {
     if (themeArray.includes(value)) {
       setThemeArray(
         themeArray.filter((element) => {
@@ -18,7 +36,7 @@ const Books = () => {
     }
   };
 
-  const manageSortArray = (bookArray, sortValue) => {
+  const manageSortArray = (bookArray: Book[], sortValue: sortOption) => {
     switch (sortValue) {
       case "AZ":
         bookArray.sort((a, b) => {
@@ -37,12 +55,12 @@ const Books = () => {
         return bookArray;
       case "AgeON":
         bookArray.sort((a, b) => {
-          return a.PublishDate - b.PublishDate;
+          return parseInt(a.PublishDate) - parseInt(b.PublishDate);
         });
         return bookArray;
       case "AgeNO":
         bookArray.sort((a, b) => {
-          return b.PublishDate - a.PublishDate;
+          return parseInt(b.PublishDate) - parseInt(a.PublishDate);
         });
         return bookArray;
       default:
@@ -53,7 +71,7 @@ const Books = () => {
     }
   };
 
-  const filterFunction = (themes, title, author) => {
+  const filterFunction = (themes: theme[], title: string, author: string) => {
     return (
       themeArray.every((element) => themes.includes(element)) &&
       (title.toLowerCase().includes(searchValue) ||
@@ -62,7 +80,7 @@ const Books = () => {
   };
 
   const bookArray = booksObject["Books"];
-  const sortedBookArray = manageSortArray(bookArray, sort);
+  const sortedBookArray = manageSortArray(bookArray as Book[], sort as sortOption);
   const filteredBookArray = sortedBookArray.filter((element) => {
     return filterFunction(element.Themes, element.Title, element.Author);
   });
@@ -109,7 +127,7 @@ const Books = () => {
                 name="theme"
                 value={element}
                 onChange={(e) => {
-                  manageThemeArray(e.target.value);
+                  manageThemeArray(e.target.value as theme);
                 }}
               />
               <label key={`label${id}`} htmlFor={`theme${id}`}>

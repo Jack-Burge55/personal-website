@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from "react";
 const ReactPage = () => {
-  const [newItem, setNewItem] = useState("");
+  const [newItem, setNewItem] = useState("" as (number | ""));
   const [checkoutQueues, setCheckoutQueues] = useState(Array(3).fill([]));
   const [scanRate, setScanRate] = useState(1);
 
   const addNewItem = () => {
     if (newItem) {
       let smallestQueueTotal = Infinity;
-      let smallestQueueIndex;
+      let smallestQueueIndex = 0;
       checkoutQueues.forEach((checkout, checkoutIndex) => {
         const checkoutSum = checkout.reduce(
-          (partialSum, trolley) => partialSum + trolley,
+          (partialSum: number, trolley: number) => partialSum + trolley,
           0
         );
         if (checkoutSum < smallestQueueTotal) {
@@ -26,7 +26,7 @@ const ReactPage = () => {
     }
   };
 
-  const workThroughQueues = (queues) => {
+  const workThroughQueues = (queues: number[][]) => {    
     const newQueues = queues.map((queue) => {
       if (queue.length) {
         const firstElement = queue[0];
@@ -37,7 +37,7 @@ const ReactPage = () => {
     return newQueues;
   };
 
-  const changeQueueCount = (change) => {
+  const changeQueueCount = (change: number) => {
     let result;
     if (change === 1) {
       result = [...checkoutQueues, []];
@@ -52,7 +52,7 @@ const ReactPage = () => {
         }
       });
       result = [...checkoutQueues];
-      if (0 <= indexToRemove) {
+      if (indexToRemove && (0 <= indexToRemove)) {
         result.splice(indexToRemove, 1);
         const tempVar = [...result];
         setCheckoutQueues(tempVar);
@@ -137,7 +137,7 @@ const ReactPage = () => {
                 <p style={{ margin: 0 }}>Checkout #{checkoutId + 1}</p>
               </div>
               <div className="checkoutQueue">
-                {checkout.map((trolley, trolleyId) => {
+                {checkout.map((trolley: number, trolleyId: number) => {
                   return (
                     <div key={trolleyId} className="checkoutItem">
                       {trolley}

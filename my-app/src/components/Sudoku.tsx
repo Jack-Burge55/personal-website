@@ -11,21 +11,23 @@ const Sudoku = () => {
   [0,0,0,0,0,0,0,0,0],
   [0,0,0,0,0,0,0,0,0],
   [0,0,0,0,0,0,0,0,0]]
-  const [sudokuState, setSudokuState] = useState(emptyGrid)
-
+  const [sudokuState, setSudokuState] = useState(emptyGrid as (number[][] | "error"))
+  
   useEffect(() => {
     if (sudokuState !== "error") {
       for (let i = 0; i < 9; i++) {
       for (let j = 0; j < 9; j++) {
-        const square = document.getElementById(`${i}-${j}`)
-        square.value = sudokuState[i][j] === 0 ? "" : sudokuState[i][j]
+        const square = document.getElementById(`${i}-${j}`) as HTMLInputElement
+        if (square) {
+          square.value = sudokuState[i][j] === 0 ? "" : sudokuState[i][j].toString()
+        }
       }
     }}
   }, [sudokuState])
 
-  const solveSudoku = (grid) => {
+  const solveSudoku = (grid: number[][]) => {
     // Then, get permanent array of coords of grid that need to be filled, emptySquares
-    const emptySquares = []
+    const emptySquares: number[][] = []
     grid.forEach((row, rowIndex) => {
       row.forEach((colItem, colIndex) => {
         if (colItem === 0) emptySquares.push([rowIndex, colIndex])
@@ -79,7 +81,7 @@ const Sudoku = () => {
     }
   }
 
-  const startCheckSudoku = (grid) => {
+  const startCheckSudoku = (grid: number[][]) => {
     let validSudoku = true
     // Check rows
     grid.forEach(row => {
@@ -93,7 +95,7 @@ const Sudoku = () => {
     if (!validSudoku) return false
     // Check columns
     for (let i = 0; i < 9; i++) {
-      const colElements = []
+      const colElements: number[] = []
       grid.forEach(row => {
         colElements.push(row[i])
       })
@@ -128,7 +130,7 @@ const Sudoku = () => {
     return true
   }
 
-  const finalCheckSudoku = (grid) => {
+  const finalCheckSudoku = (grid: number[][]) => {
     let isValidSudoku = true
     // Check rows
     grid.forEach(row => {
@@ -139,7 +141,7 @@ const Sudoku = () => {
     if (!isValidSudoku) return false
     // Check columns
     for (let i = 0; i < 9; i++) {
-      const colElements = []
+      const colElements: number[] = []
       grid.forEach(row => {
         colElements.push(row[i])
       })
@@ -210,7 +212,7 @@ const sudokuMain = () => {
   // fill grid with inputted numbers
   for (let i = 0; i < 9; i++) {
     for (let j = 0; j < 9; j++) {
-      const inputtedValue = parseInt(document.getElementById(`${i}-${j}`).value, 10)
+      const inputtedValue = parseInt((document.getElementById(`${i}-${j}`) as HTMLInputElement)?.value, 10)
       if (inputtedValue) gridWithInput[i][j] = inputtedValue
     }
   }
@@ -220,9 +222,8 @@ const sudokuMain = () => {
   } else {
     const result = solveSudoku(gridWithInput)
     if (result === -1) setSudokuState("error")
-    else {setSudokuState(result)}
+    else {setSudokuState(result as number[][])}
   }
-
 }
 
   return (
