@@ -31,13 +31,20 @@ const Farmazon = () => {
       </p>
       <h2 className="title is-3">Tech Stack and Implementation</h2>
       <p className='block'>
-      Like all of my projects, the code for this is public and can be found on my <a
-          href="https://github.com/Jack-Burge55/farmazon"
+      Like all of my projects, the code for this is public and can be found on my repository on github, the <a
+          href="https://github.com/Jack-Burge55/farmazon-frontend"
           target="_blank"
           rel="noreferrer"
           className="textLink"
         >
-          repository on github
+        frontend
+        </a> part as well as the <a
+          href="https://github.com/Jack-Burge55/farmazon-backend"
+          target="_blank"
+          rel="noreferrer"
+          className="textLink"
+        >
+        backend
         </a>.
         This project was originally a group project during my time with General Assembly. The project tech stack consists of Java using Spring boot for the back-end CRUD implementation, and React on the frontend. Originally this project also used PostgreSQL as a database storage, however currently the front and back-end simply use local host ports. A short term goal of mine is to make this public and hosted.
       </p>
