@@ -36,24 +36,30 @@ const Home = () => {
                 </div>
                 <div className='homeQuarter'>
                     <h2 className='title is-3'>Suggested Pages</h2>
-                        <Link to="/play-santorini">
-                            <div className='favouritesLink'>
-                                🏛️ A Santorini Engine - Play against my created engine for my favourite board game, Santorini
-                            </div>
-                        </Link>
-                        <Link to="/farmazon">
-                            <div className='favouritesLink'>
-                                🐮 Farmazon - An exercise into creating an Amazon clone, with both front and back-end
-                            </div>
-                        </Link>
-                        <Link to={bookAddress}>
-                            <div className='favouritesLink'>
-                                📖 The Last Book I Read - A review of the most recent book I've read in the SF Masterworks collection
-                            </div>
-                        </Link>
+                        <div className='favourites'>
+                            <Link to="/play-santorini">
+                                <div className='favouritesLink'>
+                                    🏛️ A Santorini Engine - Play against my created engine for my favourite board game, Santorini
+                                </div>
+                            </Link>
+                        </div>
+                        <div className='favourites'>
+                            <Link to="/farmazon">
+                                <div className='favouritesLink'>
+                                    🐮 Farmazon - An exercise into creating an Amazon clone, with both front and back-end
+                                </div>
+                            </Link>
+                        </div>
+                        <div className='favourites'>
+                            <Link to={bookAddress}>
+                                <div className='favouritesLink'>
+                                    📖 The Last Book I Read - A review of the most recent book I've read in the SF Masterworks collection
+                                </div>
+                            </Link>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
         </>
     )
 }

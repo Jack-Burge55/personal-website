@@ -86,6 +86,10 @@ hr.solid {
   align-items: center;
 }
 
+.favourites {
+  margin-bottom: 40px;
+}
+
 .favouritesLink {
   border-style: solid;
   border-width: 3px;
@@ -96,7 +100,6 @@ hr.solid {
   align-items: center;
   background-color: #b0ebe1;
   border-radius: 5px;
-  margin-bottom: 40px;
 }
 
 .homeText {
