@@ -13,12 +13,14 @@ import BookPage from './components/BookPage';
 import SantoriniPage from "./components/SantoriniPage";
 // @ts-ignore
 import PlaySantorini from "./components/PlaySantorini/PlaySantorini"
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
 
   return (
     <div className="App">
       <Navbar />
+      <ScrollToTop />
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/book/:bookId" element={<BookPage/>} />
