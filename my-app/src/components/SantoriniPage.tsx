@@ -1,11 +1,12 @@
 import React from "react";
 import SantoPhoto from "../assets/SantoPhoto.jpg";
 import SantoProgram from "../assets/SantoProgram.png";
+import minimax from "../assets/minimax.png"
 
 const SantoriniPage = () => {
   return (
     <>
-      <h1 className="title">The Santorini Board Game</h1>
+      <h1 className="title">The Santorini Story</h1>
       <h2 className="title is-4">Introduction</h2>
       <p className="block">
         If you love puzzles, board games, and some cleverly hidden maths, you'll
@@ -103,7 +104,7 @@ const SantoriniPage = () => {
         builder to prevent your win. Bringing them down is the next best thing
         to climbing up yourself!
       </p>
-      <h2 className="title is-4 block">Program Project</h2>
+      <h2 className="title is-4 block">The First Project in Pygame</h2>
       <img
         className="photo block"
         src={SantoProgram}
@@ -115,21 +116,7 @@ const SantoriniPage = () => {
         I learnt to code in Python. One of the projects I was really excited to
         create was a basic, two player Santorini in pygame. You can see above
         the program in action. This was a great small program to learn pygame
-        and solidify my initial python understanding. In the future, I'd love to
-        improve this, perhaps bring it over to JavaScript on this website, add
-        in basic god cards with the cards power, or even explore non local
-        multiplayer! If you're interested in seeing the actual code, you can
-        check it out on my{" "}
-        <a
-          href="https://github.com/Jack-Burge55/Santorini"
-          target="_blank"
-          rel="noreferrer"
-          className="textLink"
-        >
-          {" "}
-          repository on github
-        </a>
-        . And if you want to contribute, please be my guest!
+        and solidify my initial python understanding.
       </p>
       <h2 className="title is-4 block">SantorinAI</h2>
       <p className="block">
@@ -158,7 +145,7 @@ const SantoriniPage = () => {
         At this point, I felt confident in the logic for building engines, and
         wanted to make a genuinely good player. Also by now I had created
         multiple helper functions in a utility folder, so I wasn't having to
-        repeat a lot of the logic. My third and currently best engine was the
+        repeat a lot of the logic. My third and currently best engine is the
         minimax engine. This engine contains the functionality to check a
         certain boards layout and assign it a score from the perspective of a
         player, where the greater the score, the stronger the players position.
@@ -176,21 +163,28 @@ const SantoriniPage = () => {
         the greedy height engine 999 games out of 1000, as well as beating my
         friend in person.
       </p>
+      <img
+        className="block"
+        src={minimax}
+        alt="A screenshot of the minimax code"
+        title="The mighty minimax"
+      />
+      <h2 className="title is-4 block">Implementation on my website</h2>
       <p className="block">
-        I'd like to come back to this in the future and add more to this
-        project, including more engines, a choice for which engine to play and a
-        UI for a visitor to easily play against the engine on a web page. If
-        you're interested and would like to see the code I've mentioned above,
-        please check out the repository for this project{" "}
-        <a
+        I finally managed to build a UI for the game in React and put this on my page. This now has the three engines implemented and provides a choice to the user for their builder colour and which engine they would like to play against.
+        The primary challenge here was implementing the React UI interface, as most of the actual game logic has already been previously written in my previous projects on Santorini.
+      </p>
+      <h2 className="title is-4 block">Next Steps</h2>
+      <p className="block">Now I have integrated the engines onto this website, the next step is to create even more engines that play better than the good but imperfect minimax engine. Once any further engine has been created, it will be easy to update the page with the new engine after bringing over the code.</p>
+      <p className="block">Another goal is to implement the basic god cards into the game, both in the UI for the player and also for the engine. Due to the range of powers available to even the basic gods (dome at any level, move twice before building...) this is a substantial change to the logic and would take some time!</p>
+      <p className="block">To see the code to create the engines, you can check my public repository <a
           href="https://github.com/Jack-Burge55/santorini-engine"
           target="_blank"
           rel="noreferrer"
           className="textLink"
         >
           here!
-        </a>
-      </p>
+        </a></p>
     </>
   );
 };

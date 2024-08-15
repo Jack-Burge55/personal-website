@@ -1,0 +1,259 @@
+.outline {
+    margin: 0 auto;
+    width: min-content;
+    background-color: bisque;
+    border: 3px solid rgb(51, 43, 22);
+}
+
+.totalBoard {
+    display: flex;
+    max-width: 706px;
+}
+
+.colourPicker, .enginePicker {
+    height: 506px;
+    width: 506px;
+}
+
+.colourOptions, .engineOptions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    cursor: default;
+}
+
+.engineOption {
+    width: 100px;
+    height: 150px;
+    border: 2px solid black;
+}
+
+.levelOne {
+    position: absolute;
+    width: 94px;
+    height: 94px;
+    background-color: whitesmoke;
+}
+
+.levelTwo {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    margin: 0 auto;
+    top: 10%;
+    border: 3px solid rgb(184, 184, 184);
+}
+
+.levelThree {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 50%;
+    top: 23%;
+    border: 3px solid rgb(184, 184, 184);
+}
+
+.levelFour {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 50%;
+    top: 29%;
+    background-color: rgb(0, 0, 204);
+}
+
+.selected {
+    position: absolute;
+    width: 94px;
+    height: 94px;
+    background-color: rgb(255, 255, 0);
+    opacity: 0.6;
+}
+
+@keyframes pulse {
+    0%   {    width: 80px;
+        height: 80px;}
+    50%  {    width: 70px;
+        height: 70px;}
+    100% {    width: 80px;
+        height: 80px;}
+  }
+
+.availableMove {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(255, 0, 0);
+    opacity: 0.4;
+    border-radius: 50%;
+    /* animation-name: pulse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite; */
+}
+
+.availableBuild {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(129, 129, 129);
+    opacity: 0.4;
+    border-radius: 50%;
+    /* animation-name: pulse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite; */
+}
+
+.availableBuildDome {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(0, 0, 255);
+    opacity: 0.4;
+    border-radius: 50%;
+    /* animation-name: pulse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite; */
+}
+
+.clay {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(173, 149, 149);
+    border: 1px solid black;
+    z-index: 1;
+}
+
+.blue {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(46, 192, 192);
+    border: 1px solid black;
+    z-index: 1;
+}
+
+.white {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(231, 231, 231);
+    border: 1px solid black;
+    z-index: 1;
+}
+
+.centre {
+    margin: 0 auto;
+}
+
+.bold {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.tile {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    border: 3px solid rgb(184, 184, 184);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile:hover {
+    border: 3px solid rgb(238, 255, 0);
+}
+
+.activeTile {
+    background-color: yellow;
+}
+
+.sideDisplay {
+    width: 200px;
+    background-color: bisque;
+    border-right: 3px solid rgb(51, 43, 22);
+    display: flex;
+    flex-direction: column;
+}
+
+.sideDivisor {
+    height: 20%;
+}
+
+.gridContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: repeat(5, 100px);
+    border: 3px solid rgb(184, 184, 184);
+}
+
+.endGameOverlay {
+    position: absolute;
+    width: 506px;
+    height: 506px;
+    background-color: rgb(228, 137, 0);
+    opacity: 0.7;
+    z-index: 2;
+}
+
+.endGameDisplay {
+    position: absolute;
+    width: 506px;
+    height: 506px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.endTitle {
+    font-size: 50px;
+}
+
+.endText {
+    font-size: 30px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    border-radius: 5%;
+    background-color: bisque;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.textLink {
+    font-weight: 600;
+}
+
+.totalGame {
+    margin-bottom: 50px;
+}
+
+.explanationText > * {
+    margin-bottom: 20px;
+}

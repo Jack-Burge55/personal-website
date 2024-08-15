@@ -36,19 +36,19 @@ const Home = () => {
                 </div>
                 <div className='homeQuarter'>
                     <h2 className='title is-3'>Suggested Pages</h2>
-                        <Link to="/santorini">
+                        <Link to="/play-santorini">
                             <div className='favouritesLink'>
-                                Santorini - An analysis of the abstract board game and the creation of a game engine
+                                🏛️ A Santorini Engine - Play against my created engine for my favourite board game, Santorini
                             </div>
                         </Link>
-                        <Link to="/sudoku">
+                        <Link to="/farmazon">
                             <div className='favouritesLink'>
-                            Sudoku Solver - A short exercise in creating a sudoku solver using a backtracking algorithm
+                                🐮 Farmazon - An exercise into creating an Amazon clone, with both front and back-end
                             </div>
                         </Link>
                         <Link to={bookAddress}>
                             <div className='favouritesLink'>
-                            The Last Book I Read - A review of the most recent book I've read in the SF Masterworks collection
+                                📖 The Last Book I Read - A review of the most recent book I've read in the SF Masterworks collection
                             </div>
                         </Link>
                 </div>
