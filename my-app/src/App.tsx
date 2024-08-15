@@ -11,6 +11,8 @@ import About from "./components/About";
 import Projects from "./components/Projects"
 import BookPage from './components/BookPage';
 import SantoriniPage from "./components/SantoriniPage";
+// @ts-ignore
+import PlaySantorini from "./components/PlaySantorini/PlaySantorini"
 
 function App() {
 
@@ -22,6 +24,7 @@ function App() {
         <Route path="/book/:bookId" element={<BookPage/>} />
         <Route path="/books" element={<Books />} />
         <Route path="/santorini" element={<SantoriniPage />} />
+        <Route path="/play-santorini" element={<PlaySantorini />} />
         <Route path="/react" element={<ReactPage />} />
         <Route path="/sudoku" element={<Sudoku />} />
         <Route path="/farmazon" element={<Farmazon />} />

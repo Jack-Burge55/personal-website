@@ -2,33 +2,39 @@
     "Projects": 
     [{
         "Id": 0,
-        "Title": "Santorini",
-        "LinkName": "santorini",
-        "Image": "./images/SantoProjectPic.jpg"
+        "Title": "Play Santorini",
+        "LinkName": "play-santorini",
+        "Image": "./images/PlaySantorini.png"
     },
     {
-        "Id": 1,
+        "Id": 5,
+        "Title": "Farmazon",
+        "LinkName": "farmazon",
+        "Image": "./images/Farmazon.png"
+    },
+    {
+        "Id": 2,
         "Title": "SF Masterworks",
         "LinkName": "books",
         "Image": "./images/SFProjectPic.jpg"
     },
     {
-        "Id": 2,
-        "Title": "React",
-        "LinkName": "react",
-        "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/120px-React_Logo_SVG.svg.png"
+        "Id": 1,
+        "Title": "The Santorini Story",
+        "LinkName": "santorini",
+        "Image": "./images/SantoProjectPic.jpg"
     },
     {
-        "Id": 3,
+        "Id": 4,
         "Title": "Sudoku",
         "LinkName": "sudoku",
         "Image": "./images/Sudoku.png"
     },
     {
-        "Id": 4,
-        "Title": "Farmazon",
-        "LinkName": "farmazon",
-        "Image": "./images/Farmazon.png"
+        "Id": 3,
+        "Title": "React",
+        "LinkName": "react",
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/120px-React_Logo_SVG.svg.png"
     }
 ]
 }
