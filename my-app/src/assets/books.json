@@ -1,325 +1,418 @@
 {
-    "Themes": 
-        [
-            "Plot Twist", 
-            "Set On Earth",
-            "Interesting Aliens",
-            "Good Writing",
-            "Fun to Read",
-            "Realistic",
-            "Modern",
-            "Compilation"
-        ],
-    "Books": 
-        [{
-            "Id": 0,
-            "Title": "The Hitchhiker's Guide to the Galaxy",
-            "Author": "Douglas Adams",
-            "Blurb": "One Thursday lunchtime Earth is unexpectedly demolished to make way for a new hyperspace bypass. For Arthur Dent, who has only just had his house demolished that morning, this is already more than he can cope with. Sadly, however, the weekend has only just begun. And the Galaxy is a very, very large and startling place indeed...",
-            "Quote": "The ships hung in the sky in much the same way that bricks don't.",
-            "Rating": 8,
-            "PublishDate": "1979",
-            "Review": ["The Hitchhiker's Guide to the Galaxy, as you can probably tell by the title, is a really fun book, with some classic British humour and some wacky characters. After the success of this first book the series was developed, with some in the series much better than others. While it can be difficult with older books still being funny, the humour in this is timeless. Douglas Adams is similar to American sci-fi writer Kurt Vonnegut in his bizarre sci-fi ideas coupled with the pointless and clueless existence of mankind. We as the reader encounter the extraordinary aliens and robots in this story through the very relatable eyes of unassuming British protagonist Arthur Dent. This book was born from an orginal BBC radio show written by Adams, which was then further rewritten as a movie starring Martin Freeman. Among the notable characters of the story are: Genius dolphins who've played mankind for fish, a depressed robot (voiced in the film by Alan Rickman), repulsive alien race Vogons who have a misplaced passion for poetry and a machine which knows the answers to the universe (42). The book is well worth a read, though might feel a little dated in parts with the amount of cultural references sprinkled throughout."],
-            "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575115347-329.jpg?fit=437%2C675",
-            "Themes": ["Set On Earth", "Interesting Aliens", "Good Writing", "Fun to Read", "Modern"]
-        },
-        {
-            "Id": 1,
-            "Title": "Dune",
-            "Author": "Frank Herbert",
-            "Blurb": "The Duke of Atreides has been manoeuvred by his arch-enemy, Baron Harkonnen, into administering the desert planet of Dune. Although it is almost completely without water, Dune is a planet of fabulous wealth, for it is the only source of a drug prized throughout the Galactic Empire. The Duke and his son, Paul, are expecting treachery, and it duly comes - but from a shockingly unexpected place. Then Paul succeeds his father, and he becomes a catalyst for the native people of Dune, whose knowledge of the ecology of the planet gives them vast power. They have been waiting for a leader like Paul Atreides, a leader who can harness that force...",
-            "Quote": "Deep in the human unconscious is a pervasive need for a logical universe that makes sense. But the real universe is always one step beyond logic.",
-            "Rating": 7,
-            "PublishDate": "1965",
-            "Review": ["If you ask any science fiction fan what they think the best piece of fiction in the genre is, more often than not Dune will be mentioned. Made relevant again today with the blockbusters released recently by Denis Villeneuve (who also directed the fantastic science fiction film Arrival) Dune isn't going anywhere soon. Set on the desert world of Arrakis, we experience a brutal and mysterious ecosystem of secretive tribes and gargantuan sand worms. Frank Herbert expanded the book into a series, which was continued (with varying success) by his son after his passing. I read Dune a while ago, when I may have been a little too young for it. I had to reread the first 50 pages after realising I had no idea what was happening. It's a science fiction legend that I'm sure is loved for a reason, and one day I hope to appreciate it the same way masses of other fans do."],
-            "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575081505-451.jpg?fit=436%2C675",
-            "Themes": ["Interesting Aliens"]
-        },
-        {
-            "Id": 2,
-            "Title": "The Sirens of Titan",
-            "Author": "Kurt Vonnegut",
-            "Blurb": "When Winston Niles Rumfoord flies his spaceship into a chrono-synclastic infundibulum he is converted into pure energy and only materializes when his waveforms intercept Earth or some other planet. As a result, he only gets home to Newport, Rhode Island, once every fifty-nine days and then only for an hour. But at least, as a consolation, he now knows everything that has ever happened or that will ever happen",
-            "Quote": "There is no reason why good cannot triumph as often as evil. The triumph of anything is a matter of organization. If there are such things as angels, I hope that they are organized along the lines of the Mafia.",
-            "Rating": 8,
-            "PublishDate": "1959",
-            "Review": ["Reading The Sirens of Titan had a profound impact on me, and really made me realise what was possible in the genre. \r Kurt Vonnegut writes in a way unparalleled by any other author I've encountered. His work is at once deep and profound, yet so casual and throw away it all feels like a big joke. And to Vonnegut, it is. Everything we hold dear is unimportant, pointless, and for the most part, unchangeable (so why worry?). \r While this sounds pretty harsh, there is some solace to be found in this conclusion. By highlighting the foolishness of humanity, and pairing it with an unforgiving universe with a sense of humour, there's a kind of solace in knowing that we can't mess up too badly for it to matter. (If you read the book, you know it's not as bad as a certain other character who makes a certain other mistake)! The Sirens of Titan is a book I think perfectly captures Vonnegut's main ideas. His most popular work, Slaughterhouse 5, is a brilliant work of fiction, but doesn't go as wild as this novel. All of the bizarre seemingly unrelated plot threads not only tie up to a clean resolution, but also end up so tightly intertwined it's a marvel to even begin to understand it. Especially with the time jumping, what at first seems like nonsensical fun reveals itself to be a masterpiece with a much deeper meaning."],
-            "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9781857988840-399.jpg?fit=439%2C675",
-            "Themes": ["Set On Earth", "Interesting Aliens", "Good Writing", "Fun to Read", "Modern"]
-        },
-        {
-            "Id": 3,
-            "Title": "Flowers For Algernon",
-            "Author": "Daniel Keyes",
-            "Blurb": "Charlie Gordon, IQ 68, is a floor sweeper, and the gentle butt of everyone's jokes, until an experiment in the enhancement of human intelligence turns him into a genius. But then Algernon, the mouse whose triumphal experimental transformation preceded his, fades and dies, and Charlie has to face the possibility that his salvation was only temporary",
-            "Quote": "I don't know what's worse: to not know what you are and be happy, or to become what you've always wanted to be, and feel alone.",
-            "Rating": 10,
-            "PublishDate": "1966",
-            "Review": ["Flowers for Algernon now and always will be one of my all time favourite books, regardless of genre. it still surprises me how a book over 60 years old still comes across with so much heart that still affects the reader in the modern day. At the time of my first reading I had never read anything so original. The book is written from Charlie's perspective, as his own diary. Because we first meet Charlie as a mentally disabled bakery cleaner, the butt of everyones affectionate but cutting jokes, his diary entries are littered with spelling mistakes and a childlike perspective of the world. As the plot progresses and Charlie gains increased intelligence, we see the same world in his new perspective, and get a real insight into his mind as he navigates his strange new world. An aspect of this I love is the exploration of how intelligence affects his relations with friends, colleagues and lovers. Seeing the contrast between a handicapped Charlie pining to be smarter and a vastly educated Charlie struggling to come to terms with the world makes it almost feel like two separate characters completely. Keyes writes both wildly different perspectives perfectly, bringing what could feel like two separate novellas in the hands of a lesser author into a brilliant and desperate narrative. Flowers for Algernon is a book I hope to always come back to, and I don't think I'll ever be unaffected by the brilliant but painful ending."],
-            "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575088498-94.jpg?fit=440%2C675",
-            "Themes": ["Plot Twist", "Set On Earth", "Good Writing", "Fun to Read", "Realistic"]
-        },
-        {
-            "Id": 4,
-            "Title": "Sirius",
-            "Author": "Olaf Stapledon",
-            "Rating": 6,
-            "PublishDate": "1944",
-            "Blurb": "Sirius is Thomas Trelone's great experiment - a huge, handsome dog with the brain and intelligence of a human being. Raised and educated in Trelone's own family alongside Plaxy, his youngest daughter, Sirius is a truly remarkable and gifted creature. His relationship with the Trelones, particularly with Plaxy, is deep and close, and his inquiring mind ranges across the spectrum of human knowledge and experience. But Sirius isn't human and the conflicts and inner turmoil that torture him cannot be resolved.",
-            "Quote": "“I'm afraid I'm not working out according to plan,” he said. “But if I am really a person you shouldn't expect me to. Why did you make me without making a world for me to live in. It's as though God had made Adam and not bothered to make Eden, nor Eve. I think it's going to be frightfully difficult being me.”",
-            "Review": ["I read Sirius about 6 years ago, so my memory of this book isn't the best. That's one of its main issues, it just doesn't really stand out. I remember at the time actually enjoying it, until I saw a review of it which pretty quickly made me see it a different way. The review described the book as Frankenstein, if Frankenstein's creation was not a revived corpse amalgamation but instead a dog - and that's actually pretty accurate. The book is sentimental, and at times very sweet. We struggle alongside Sirius as he adjusts to life in a human world trapped in a dogs body which causes him to struggle to read books or play the piano. All the while, he struggles watching his very human sister blossom and live her life as a human woman. In its favour, the book does make us think about what makes life worth living and highlights the struggle to survive for beings who don't fit into the standard mold. Did I enjoy reading the book? Yes, absolutely. Would I recommend it? I can't. Though vintage science fiction, in hindsight the plot seems more like it would suit a short story better."],
-            "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575099425-119.jpg?fit=441%2C675",
-            "Themes": ["Set On Earth", "Good Writing", "Fun to Read", "Modern"]
-        },
-        {
-            "Id": 5,
-            "Title": "The War of the Worlds",
-            "Author": "H. G. Wells",
-            "Blurb": "When an alien capsule lands on Horsell Common, Woking, crowds of astonished onlookers gather. But wonder soon turns to terror when the Martians emerge. Armed with deadly heat rays, the aliens begin their conquest of earth. Confronted by powers beyond our control, a technology far in advance of our own, and a race of alien invaders which regard us as no more than ants, humankind faces extinction. While the world crumbles under the shadow of the Martian menace, one man sets out alone across the desolate wasteland to find his wife.",
-            "Quote": "No one would have believed in the last years of the nineteenth century that this world was being watched keenly and closely by intelligences greater than man's and yet as mortal as his own; that as men busied themselves about their various concerns they were scrutinised and studied, perhaps almost as narrowly as a man with a microscope might scrutinise the transient creatures that swarm and multiply in a drop of water.",
-            "Rating": 4,
-            "PublishDate": "1897",
-            "Review": ["This might be THE ultimate example of a science fiction book. Also as one of the oldest in this list, The War of the Worlds suffers in modern day for being generic due to the fact it is pretty much the basis of the genre, at least as far as evil invading aliens. H. G. Wells is also a household name, with notable works also including The Invisible Man and The Time Machine. I grew up listening to the CD of the radio musical performance, and as a kid I loved and was terrified by the film starring Tom Cruise. With all of this said, I really struggled with this book. It's age shows on every page (unsurprising at over 120 years old, I know) and the writing is slow and for the most part, impossibly given the subject material, pretty dull. The novel takes place in and around London, and the sheer number of references to real life locations is totally lost on someone who doesn't have much information on London past the Monopoly board. For its age the ideas in this book are extraordinary and its influence is undeniable. It seems to have a similar problem to a lot of Lovecraft's stories. Great and original ideas, but stuck in its outdated language and ancient attitudes to way of life in contrast to the present day. It just isn't a fun read for me."],
-            "Image": "https://i.pinimg.com/736x/44/21/08/44210868b71c16b73c8553eb340a08f3.jpg",
-            "Themes": ["Set On Earth", "Interesting Aliens", "Realistic"]
-        },
-        {
-            "Id": 6,
-            "Title": "Inverted world",
-            "Author": "Christopher Priest",
-            "Blurb": "The city is winched along its tracks through a devastated world. Rails must be laid ahead of it and removed in its wake. If the city does not move, it will fall behind the \"optimum\" and into a crushing gravitational field. The alternative to progress is death. The rulers of the city make sure its inhabitants know nothing of this. But the dwindling population is growing restive. And the rulers know that the city is falling further and further behind",
-            "Quote": "I had reached the age of six hundred and fifty miles.",
-            "Rating": 10,
-            "PublishDate": "1974",
-            "Review": ["The first sentence alone of this book (given as the quote above) sets the tone for an immensely original and intriguing adventure for the reader. We follow the character of Helward Mann, a citizen of the moving city. We see him grow from a young man into full adult and follow his journey in different roles in the city. This exposure gives us insight into the painful logisitics of their conundrum and feel the same fear of falling behind the optimum - the threat of being crushed by the gravitational field. This book gets weird, in a brilliant and scientific way. There is the threat of so many mysteries not being satisfyingly resolved. For example, what is the optimum, why the gravity fields, why is the city called \"Earth\" and why is the number of female births declining? Yet, even with all of these questions, Christopher Priest comes through with a blunt but satisfying conclusion. I couldn't have guessed at the twist the book presented at the end, a shift of perspective so memorable I value this book so highly. There is of course much more to this book tha its brilliant ending, with exploration into dynamics of civilization, gender roles, and governmental control. I don't want to give anything away, but I strongly encourage anyone to read this novel."],
-            "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575082106-150.jpg?fit=440%2C675",
-            "Themes": ["Plot Twist", "Set On Earth", "Good Writing", "Fun to Read", "Modern"]
-        },
-        {
-            "Id": 7,
-            "Title": "Mission of Gravity",
-            "Author": "Hal Clement",
-            "Blurb": "Mesklin is a vast, inhospitable, disc-shaped planet, so cold that it's oceans are liquid methane and it's snows are frozen ammonia. It is a world spinning dizzyingly, a world where gravity can be a crushing 700 times greater than Earth's, a world too hostile for human explorers. But the planet holds secrets of inestimable value, and an unmanned probe that has crashed close to one of its poles must be recovered. Only the Mesklinites, the small creatures so bizarrely adapted to their harsh environment, can help. And so Barlennan, the resourceful and courageous captain of the Mesklinite ship Bree, sets out on an heroic and appalling journey into the terrible unknown. For him and his people, the prize to be gained is as great as that for mankind...",
-            "Rating": 7,
-            "PublishDate": "1953",
-            "Review": ["With some works of science fiction, a brilliant original idea when followed through can create a well rounded and intriguing narrative. In this case, what would an existence look like on a planet with gravity over 700 times the power of that we have on Earth? For the millipede like aliens of Mesklin, this is a day to day reality, a reality where a drop a foot deep is a mortal threat and can prove an insurmountable obstacle. This book isn't fully alien, however, we do see the narrative from Charles Lackland as well as Mesklinite Barlennan. It's refreshing to read a science fiction story of cooperation rather than the all so common aggresion between alien species. The book is dated, but absolutely worth reading for its genuinely original ideas."],
-            "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9781473206380-114.jpg?fit=440%2C675",
-            "Themes": ["Interesting Aliens", "Good Writing", "Fun to Read", "Realistic"]
-        },
-        {
-            "Id": 8,
-            "Title": "The Book of Skulls",
-            "Author": "Robert Silverberg",
-            "Blurb": "Four students discover a manuscript, The Book of Skulls, which reveals the existence of a sect, now living in the Arizona desert, whose members can offer immortality to those who can complete its initiation rite. To their surprise, they discover that the sect exists, and is willing to accept them as acolytes. But for each group of four who enter the rite, two must die in order for the others to succeed.",
-            "Quote": "Was that a sly smile of the initiate, or a dumb smile of bluffing?",
-            "Rating": 4,
-            "PublishDate": "1972",
-            "Review": ["'The Book of Skulls' is a strange book for me to write about, and one I have mixed feelings for. It's also the one on this list I feel lies out of place, as in my opinion there isn't actually that much science fiction present in the book. The main part of the book is dedicated to the four students, their personalities and interactions with each other as they take the journey to go to this elusive temple. It seems more to focus on the youth and their attitudes and actions in their setting.",
-        "Each of the four characters have their own demons and these come to light through the journey of the book. It's refreshing to see different viewpoints of each of the characters as we study how they interact with each other and try to understand their unique motives. However, this only works to a point as without a strong hook of plot advancement this doesn't progress more than just character studies. I was left frustrated by the opaqueness of the books plot, and have unpleasant memories of an unsatisfying conclusion. It's hard to say much more, when there isn't much to comment on in this work."],
-            "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575106260-40.jpg?fit=441%2C675",
-            "Themes": ["Set On Earth", "Realistic"]
-        },
-        {
-            "Id": 9,
-            "Title": "Time Out of Joint",
-            "Author": "Philip K. Dick",
-            "Blurb": "Ragle Gumm is an ordinary man leading an ordinary life, except that he makes his living by entering a newspaper contest every day - and winning, every day. But he gradually begins to suspect that his life - indeed his whole world - is an illusion, constructed around him for the express purpose of keeping him docile and happy. But if that is the case, what is his real world like, and what is he actually doing every day when he thinks he is guessing 'Where Will The Little Green Man Be Next?'",
-            "Quote": "In a civil war... every side is wrong. It's hopeless to try to untangle it. Everyone is a victim.",
-            "Rating": 8,
-            "PublishDate": "1959",
-            "Review": ["Unfortunately I'm not such a fan of Philip K. Dick's works. That said, it's impossible to ignore his titan influence over the genre and the incredible ideas he has made and pushed forwards. For me there is just something distant in his writing that I struggle to connect with. That said, 'Time Out of Joint' is the closest I've came to appreciating his undeniable genius. While seen as a pretty standard submission among others of his works such as 'Do Androids Dream of Electric Sheep?' (the basis for Blade Runner) I really enjoyed reading this book. Perhaps this is due to the bizarre and intriguing central plot, an idea I found so fun and interesting. Parts of the book didn't work for me so well (slips of paper if you know) but for the most part I enjoyed the journey. The ending was well written and worthwhile, and for me did a valiant effort of piecing together what is otherwise a bizarre story and in the hands of a lesser author could've fizzled out to have been a timewaster.",
-        "The book, like Dick's other works, touch on some pretty grand ideas, though saying explicitly which themes gives away a central part of the plot. I've always found stories focusing on unassuming characters appealing, as if pointing out the reader to show that it could be us going on this journey instead. Perhaps the book will make you question your own reality, though if it's similar to the truth given in the book, I hope for your sake it isn't."],
-            "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575098329-28.jpg?fit=440%2C675",
-            "Themes": ["Plot Twist", "Set On Earth", "Fun to Read"]
-        },
-        {
-            "Id": 10,
-            "Title": "The Day of the Triffids",
-            "Author": "John Wyndham",
-            "Blurb": "When Bill Masen wakes up in his hospital bed, he has reason to be grateful for the bandages that covered his eyes the night before. For he finds a population rendered blind and helpless by the spectacular meteor shower that filled the night sky, the evening before. But his relief is short-lived as he realises that a newly-blinded population is now at the mercy of the Triffids. Once, the Triffids were farmed for their oil, their uncanny ability to move and their carnivorous habits well controlled by their human keepers. But now, with humans so vulnerable, they are a potent threat to humanity's survival. It is up to people like Bill, the few who can still see, to carve out a future for the human race...",
-            "Quote": "When a day that you happen to know is Wednesday starts off by sounding like Sunday, there is something seriously wrong somewhere.",
-            "Rating": 7,
-            "PublishDate": "1951",
-            "Review": ["With old works, science fiction especially, there's a real risk of the work becoming so outdated as to not appeal to a modern audience except for hardcore enthusiasts. To me 'The War of The Worlds' epitomises this. However, certain books are written in such a way, somehow, to maintain their charm and can still be easily enjoyed decades later. 'Frankenstein' is an example which comes to mind, and also in this case 'The Day of The Triffids'. This book, I believe, started some thematic tropes that have been again and again repeated through time. For example, what do 'The Day of The Triffids', 'The Walking Dead' and '28 Days Later' all have in common? For one, they all feature our hero stumbling from a hospital disoriented and facing a bizarre new world taken over by a malicious power. Pretty standard stuff perhaps, until you remember that this book was written in 1951.",
-        "I find works exploring the downfall of civilization spellbinding, we are offered an insight into base human behaviour as we see savagery and cruelness often take over. This too happens in 'The Day of The Triffids', among the alien killer plants of course. Perhaps a tad corny at times, this journey is still great fun and a classic vintage read of the science fiction genre."],
-            "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9781473212671-123.jpg?fit=437%2C675",
-            "Themes": ["Set On Earth", "Interesting Aliens", "Fun to Read"]
-        },
-        {
-            "Id": 11,
-            "Title": "The Body Snatchers",
-            "Author": "Jack Finney",
-            "Rating": 4,
-            "PublishDate": "1955",
-            "Blurb": "When Becky Driscoll turns up at Dr Miles Bennell's consulting room after hours one August evening and tells him that her cousin Wilma doesn't think that her Uncle Ira is really her Uncle Ira, it is just the beginning of a nightmare. As the number of similar stories multiplies, Miles discovers the horrific truth. Aliens are taking over the bodies and minds of his friends and neighbours...",
-            "Quote": "I think it must actually be possible to lose your mind in an instant, and that perhaps I came very close to it.",
-            "Review": ["I really struggled with a lot of this book. Unlike 'The Day Of the Triffids' I felt the age in this book prominently through each chapter. The characters are fairly flat, down to the smart and quick witted doctor to the emotional and flirtacious female counterparts. Without specifics about the finale of the book, I was let down by the reasoning of the end and didn't feel it was a worthwhile read.",
-        "There are some certain saving graces to the book however. The exploration into madness, or perceived madness, are of interest and how people much or little people pay attention to these hysterics. There are also some great images set out in the book, especially of the formation of the fake bodies from the pods and this truly alien process. Of course, this book resulted in the classic 'Invasion of The Body Snatchers' film from 1978 starring Donald Sutherland, interestingly opting for a different ending from the book. Perhaps that is why I vastly prefer the film. Another point in this books favour is the fantastic cover art for this in the SF Masterworks collection, easily one of the best in my opinion in the series."],
-            "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575085312-65.jpg?fit=437%2C675",
-            "Themes": ["Set On Earth", "Interesting Aliens", "Fun to Read"]
-        },
-        {
-            "Id": 12,
-            "Title": "More Than Human",
-            "Author": "Theodore Sturgeon",
-            "Rating": 4,
-            "PublishDate": "1953",
-            "Blurb": "All alone: an idiot boy, a runaway girl, a severely retarded baby, and twin girls with a vocabulary of two words between them. Yet once they are mysteriously drawn together this collection of misfits becomes something very, very different from the rest of humanity.",
-            "Quote": "“Just think about it,” he said softly. “You can do practically anything. You can have practically everything. And none of it will keep you from being alone.”",
-            "Review": ["'More Than Human' offers a fascinating perspective on the stage of the evolution of mankind, and how this could happen. The way in which it happens in the book is fast and painful, leaving multiple casualties in its wake. I went through different levels of appreciation of the book, what was an enjoyable and evocative section of the book would lead to another part which didn't work so well for me. The narrative is deliberately split into three sections which are interconnected, and while this does work effectively for me certain parts were stronger than others.",
-        "It's undeniable that some of the ideas here are novel and exciting, I just find it a shame it's weighed down by the rest of the narrative of the book. 'More Than Human' is acclaimed, both at the time of release and retroactively, and while I don't think this is unfairly given I would hesitate to recommend this. Some good ideas, but for me the price is too high to be worthwhile."],
-            "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575110106-30.jpg?fit=440%2C675",
-            "Themes": ["Set On Earth"]
-        },
-        {
-            "Id": 13,
-            "Title": "Tau Zero",
-            "Author": "Poul Anderson",
-            "Rating": 7,
-            "PublishDate": "1970",
-            "Blurb": "During her epic voyage to a planet thirty light-years away, the deceleration system of the Leonora Christine is irreparably damaged. Unable to slow down, she attains light speed, tau zero itself, and the disparity between time for those on board and external time becomes impossibly great. Eons and galaxies hurtle by in the blink of an eye as the crew speeds helpless and alone into the unknown...",
-            "Quote": "for a moment infinitesimal and infinite, men, women, child, ship, and death were one.",
-            "Review": ["I've often noticed that when 'Hard Science Fiction' is mentioned, 'Tau Zero' is a common example given to demonstrate the concept. Hard Science Fiction is realistic, and attempts to be as feasible as possible using real life physics principles. Tau Zero achieves this well, as well as examing human behaviour in extreme circumstances. While some of the science is of course a tad heavy and a bit hand wavey at points, the book feels realistic enough to work and this keeps the journey moving, along with the interesting contrast of the human relationships and drama on board the ship and how this develops under the great toll of stress of their seemingly doomed fate. While to me there is nothing particularly outstanding about 'Tau Zero', I believe the book does what it aims to do well with a satisfying resolution for the range of characters included who we get to know, in a limited fashion. I'm grateful I read it, but I'm also grateful it wasn't longer."],
-            "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575088047-22.jpg?fit=438%2C675",
-            "Themes": ["Plot Twist", "Interesting Aliens", "Good Writing", "Realistic"]
-        },
-        {
-            "Id": 14,
-            "Title": "Hard To Be A God",
-            "Author": "Arkady & Boris Strugatsky",
-            "Blurb": "Anton is an undercover operative from future Earth, who travels to an alien world whose culture has not progressed beyond the Middle Ages. Although in possession of far more advanced knowledge than the society around him, he is forbidden to interfere with the natural progress of history. His place is to observe rather than interfere - but can he remain aloof in the face of so much cruelty and injustice...?",
-            "Quote": "On his fingers... But it wasn't blood - only strawberry juice.",
-            "Rating": 8,
-            "PublishDate": "1964",
-            "Review": ["I have an interesting experience reading the Strugatsky brothers works. Arguably their most successful work is 'Roadside Picnic' which went on to inspire a film and multiple games (STALKER, Tunguska: The Visitation) but is one where I love the concept but detest the book and the reading experience. However, other works like 'Hard To Be A God' or 'The Inhabited Island' I adored. I'm not sure what causes this issue. 'Hard To Be A God' was the first Strugatsky piece I read, being attracted to the intriguing cover art and the interesting sounding authors, who I learnt are famous Soviet Science Fiction writers. What is difficult going at first with dense and sometime opaque writing gave way, to me, to an imaginative story hinting at a fully realised universe.",
-                        "We follow Don Rumata (real name Anton) who acts as a duke in a medieval scoeity of an alien world, who's real purpose is to act as an undercover operative from a more advanced world. The main struggle depicted in the book is that of an internal conflict for Anton, as he is prohibited from getting too actively involved in influencing this world's progression. This conflict only deepens as he becomes further ingrained in this world, and falls in love with a young woman. We see the depiction of a cruel and seemingly stunted medieval society as Anton struggles to gently push the world's progression through a path to eventually lead to a utopic society, similar to his own. The ideas presented here enchanted me, the conflict of technology and beliefs, of power imbalance and understanding the importance of independence .The majority of the book takes place on this cruel world, with only hints and small passages alluding to a better world from Anton's life. It's a clever strategy to not have it as more of a presence, so to me it almost acts as a dream that for most is unobtainable.",
-                        "The book finally created a 2013 Russian film of the same name which I am yet to watch. It also inspired its own game, 'Hard to Be a God' which is a little outdated. I also ran the idea of this book as a DnD oneshot for my friends, who enjoyed grappling with the deep questions presented of how much control to exert, and to what extent they could, and should, influence the fate of these people."],
-            "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9781473208292-244.jpg?fit=438%2C675",
-            "Themes": ["Plot Twist", "Good Writing", "Fun to Read", "Realistic"]
-        },
-        {
-            "Id": 15,
-            "Title": "Babel-17",
-            "Author": "Samuel R. Delaney",
-            "Rating": 7,
-            "PublishDate": "1966",
-            "Blurb": "In the far future, after human civilization has spread through the galaxy, communications begin to arrive in an apparently alien language. They appear to threaten invasion, but in order to counter the threat, the messages must first be understood.",
-            "Quote": "“Do they have this word, I?” “As a matter of fact they have three forms of it: I-below-a-temperature-of-six-degrees-centigrade, I-between-six-and-ninety-three-degrees-centigrade, and I-above-ninety-three.” The Butcher looked confused. “It has to do with their reproductive process,” Rydra explained. “When the temperature is below six degrees they're sterile. They can only conceive when the temperature is between six and ninety-three, but to actually give birth, they have to be above ninety-three.”",
-            "Review": ["Review to follow..."],
-            "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575094208-212.jpg?fit=438%2C675",
-            "Themes": ["Plot Twist", "Interesting Aliens", "Good Writing", "Fun to Read"]
-        },
-        {
-            "Id": 16,
-            "Title": "The Inhabited Island",
-            "Author": "Arkady & Boris Strugatsky",
-            "Rating": 9,
-            "PublishDate": "1969",
-            "Blurb": "When Maxim Kammerer, a young space explorer from twenty-second-century Earth, crash-lands on an uncharted world, he thinks of himself as a latter-day Robinson Crusoe. Eager to establish first contact with the planet's humanlike inhabitants, he finds himself increasingly entangled in their primitive way of life. After his experiences in their nightmarish military, criminal justice, and mental health systems, Maxim begins to realize that his sojourn on this radioactive and war-scarred world will not be a walk in the park.",
-            "Quote": "\"By the way, Boar, don't forget to tell your friends that you don't live on the inner surface of a sphere. You live on the outer surface of a sphere. And there are many such spheres in existence on which people live far worse than you do, and some on which they live far better. But nowhere do they live more stupidly . . . You don't believe me? Well, to hell with you anyway. I'm going.\"",
-            "Review": ["Review to follow..."],
-            "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2020/10/hbg-title-9781473232457-18.jpg?fit=440%2C675",
-            "Themes": ["Interesting Aliens", "Plot Twist", "Good Writing", "Fun to Read", "Realistic"]
-        },
-        {
-            "Id": 17,
-            "Title": "The Man Who Fell to Earth",
-            "Author": "Walter Tevis",
-            "Blurb": "Thomas Jerome Newton is an extraterrestrial from the planet Anthea, which has been devastated by a series of nuclear wars and whose inhabitants are twice as intelligent as human beings. When he lands on Earth—in Kentucky, disguised as a human—it's with the intention of saving his own people from extinction. Newton patents some very advanced Anthean technology, which he uses to amass a fortune. He begins to build a spaceship to help the last 300 Antheans migrate to Earth. Meanwhile, Nathan Bryce, a chemistry professor in Iowa, is intrigued by some of the new products Newton's company brings to the market and already suspects Newton of being an alien. As Bryce and the FBI close in, Newton finds his own clarity and sense of purpose diminishing.",
-            "Quote": "\"Do you realize that you will not only wreck your civilization, such as it is, and kill most of your people; but that you will also poison the fish in your rivers, the squirrels in your trees, the flocks of birds, the soil, the water? There are times when you seem, to us, like apes loose in a museum, carrying knives, slashing the canvases, breaking the statuary with hammers.\"",
-            "Rating": 6,
-            "PublishDate": "1963",
-            "Review": ["Review to follow..."],
-            "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9781473213111-232.jpg?fit=442%2C675",
-            "Themes": ["Interesting Aliens", "Good Writing", "Plot Twist", "Realistic"]
-        },
-        {
-            "Id": 18,
-            "Title": "Roadside Picnic",
-            "Author": "Arkady & Boris Strugatsky",
-            "Blurb": "Red Schuhart is a stalker, one of those strange misfits who are compelled by some unknown force to venture illegally into the Zone and, in spite of the extreme danger, collect the mysterious artefacts that the alien visitors left scattered around. His life is dominated by the Zone and the thriving black market in the alien products. Even the nature of his daughter has been determined by the Zone. And it is for her that Red makes his last, tragic foray into the hazardous and hostile depths.",
-            "Quote": "A picnic. Picture a forest, a country road, a meadow. Cars drive off the country road into the meadow, a group of young people get out carrying bottles, baskets of food, transistor radios, and cameras. They light fires, pitch tents, turn on the music. In the morning they leave. The animals, birds, and insects that watched in horror through the long night creep out from their hiding places. And what do they see? Old spark plugs and old filters strewn around... Rags, burnt-out bulbs, and a monkey wrench left behind... And of course, the usual mess—apple cores, candy wrappers, charred remains of the campfire, cans, bottles, somebody's handkerchief, somebody's penknife, torn newspapers, coins, faded flowers picked in another meadow.",
-            "Rating": 3,
-            "PublishDate": "1972",
-            "Review": ["Review to follow..."],
-            "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575093133-444.jpg?fit=440%2C675",
-            "Themes": ["Set On Earth","Realistic"]
-        },
-        {
-            "Id": 19,
-            "Title": "Blood Music",
-            "Author": "Greg Bear",
-            "Blurb": "Virgil Ulam is a maverick researcher working on biochips which will use DNA as a means of information processing. Ignoring guidelines for genetic research, he goes further, producing intelligent cellular matter which can outperform laboratory rats. On being found out and ordered to destroy the experiment, he injects himself with some of the culture, and walks out carrying a seed which will develop far beyond the limits of his brilliant but blinkered imagination.",
-            "Quote": "They're trying to understand what space is. That's tough for them. They break distances down into concentrations of chemicals. For them, space is a range of taste intensities.",
-            "Rating": 9,
-            "PublishDate": "1985",
-            "Review": ["Review to follow..."],
-            "Image": "https://www.sfgateway.com/wp-content/uploads/2013/12/Blood-Music.jpg",
-            "Themes": ["Plot Twist", "Set On Earth", "Good Writing", "Fun to Read", "Realistic", "Modern"]
-        },
-        {
-            "Id": 20,
-            "Title": "Dr Bloodmoney",
-            "Author": "Philip K. Dick",
-            "Blurb": "Seven years after the day of the bombs, Point Reyes was luckier than most places. Its people were reasonably normal - except for the girl with her twin brother growing inside her, and talking to her. Their barter economy was working. Their resident genius could fix almost anything that broke down. But they didn't know they were harbouring the one man who almost everyone left alive wanted killed...",
-            "Quote": "Only death can get us out of this and maybe not even death. Maybe it's too late; we'll carry this deterioration with us to the next life.",
-            "Rating": 6,
-            "PublishDate": "1965",
-            "Review": ["Review to follow..."],
-            "Image": "https://www.sfgateway.com/wp-content/uploads/2018/07/hbg-title-9781473201682-157.jpg?w=437",
-            "Themes": ["Plot Twist", "Set On Earth", "Fun to Read"]
-        },
-        {
-            "Id": 21,
-            "Title": "The Stars My Destination",
-            "Author": "Alfred Bester",
-            "Blurb": "Gully Foyle, Mechanic's Mate 3rd Class. EDUCATION: none SKILLS: none MERITS: none RECOMMENDATIONS: none. That's the official verdict on Gully Foyle, unskilled space crewman. But right now he is the only survivor on his drifting, wrecked spaceship, and when another space vessel - the Vorga - ignores his distress flares and sails by, Gully becomes obsessed with revenge. He endures 170 days alone in deep space before finding refuge on the Sargasso Asteroid and returning to Earth to track down the crew and owners of the Vorga. But, as he works out his murderous grudge, Gully Foyle also uncovers a secret of momentous proportions...",
-            "Quote": "'There's got to be more to life than just living', Foyle said to the robot. 'Then find it for yourself, sir. Don't ask the world to stop moving because you have doubts.'",
-            "Rating": 9,
-            "PublishDate": "1956",
-            "Review": ["Review to follow..."],
-            "Image": "https://www.sfgateway.com/wp-content/uploads/2018/07/hbg-title-9780575094192-303.jpg?w=439",
-            "Themes": ["Plot Twist", "Set On Earth", "Good Writing", "Fun to Read"]
-        },
-        {
-            "Id": 22,
-            "Title": "The Wind's Twelve Quarters & The Compass Rose",
-            "Author": "Ursula K. Le Guin",
-            "Blurb": "Grand Master Ursula K. Le Guin has been recognised for almost fifty years as one of the most important writers in the SF field - and is likewise feted beyond the confines of the genre. The Wind's Twelve Quarters was her first collection and it brings together some of the finest short fiction, including the Hugo Award-winning 'The Ones Who Walk Away from Omelas', the Nebula Award-winning 'The Day Before the Revolution', and the Hugo-nominated 'Winter's King', which gave readers their first glimpse of the world later made famous in her Hugo- and Nebula-winning masterpiece The Left Hand of Darkness.",
-            "Quote": "'How far a journey, Lord?' His lips drew back and back. 'A very far journey, Lady. Yet it will last only one long night.'",
-            "Rating": 5,
-            "PublishDate": "1982",
-            "Review": ["Review to follow..."],
-            "Image": "https://www.sfgateway.com/wp-content/uploads/2018/07/hbg-title-9781473205765-368.jpg?w=441",
-            "Themes": ["Fun to Read", "Good Writing", "Set On Earth", "Compilation"]
-        },
-        {
-            "Id": 23,
-            "Title": "The Andromeda Anthology",
-            "Author": "Fred Hoyle & John Elliot",
-            "Blurb": "In addition to being the man who coined the term 'the Big Bang', world-renowned astronomer Sir Fred Hoyle also produced a fine body of science fiction. The Andromeda Anthology contains the acclaimed duology A for Andromeda and The Andromeda Breakthrough, co-written with John Elliot. The close-knit group of scientists who work at the new radio telescope are shocked to receive a mysterious signal from the heart of the Andromeda galaxy. Working with mathematician Christine Jones, Dr John Fleming interprets the signal as the instructions to build a super-computer. When the computer begins to relay the information it receives from Andromeda, scientists find themselves possessing knowledge previously unknown to mankind, knowledge that could threaten the security of human life itself.",
-            "Quote": "'We shall not need Dr. Fleming,' she said, and something about her calm, measured voice ran like a cold shadow across the sunlight.",
-            "Rating": 7,
-            "PublishDate": "1964",
-            "Review": ["Review to follow..."],
-            "Image": "https://www.sfgateway.com/wp-content/uploads/2020/01/hbg-title-9781473230118-73.jpg?w=450",
-            "Themes": ["Interesting Aliens", "Plot Twist", "Realistic", "Set On Earth", "Compilation"]
-        },
-        {
-            "Id": 24,
-            "Title": "A Fire Upon the Deep",
-            "Author": "Vernor Vinge",
-            "Blurb": "Millennia hence, an unknown force has partitioned space into 'zones of thought', which dictate a mind's potential - from superintelligence in the Transcend, to the limited minds of the Unthinking Depths. When an ancient Transcendent artefact is used as a weapon, an awesome destructive power is unleashed. Fleeing this threat, a family of scientists is captured by an alien race with a harsh medieval culture. A rescue party is assembled to retrieve them - and a secret that may save the rest of interstellar civilization.",
-            "Quote": "'Little fish risking everything for a piece of godhood... and not knowing heaven from hell, even when they find it",
-            "Rating": 9,
-            "PublishDate": "1992",
-            "Review": ["Sometimes when I read a book or watch a movie I can't believe how original and thought provoking the ideas presented in it are. I thought that about the setting of 'Hard To Be a God' by the Strugatsky brothers, and I felt that way about the gut punch of an ending in Cristopher Priest's 'Inverted World'. After finishing this book, I felt the same way. It's an astounding work of science fiction, full of such original ideas with depth that could be fully explored in their own work but are instead used to aid the narrative of this epic, sometimes just as a small piece of side narrative. One of the best examples for this I can give in 'A Fire Upon the Deep' is the concept of the Powers in the Transcend. The Transcend is a zone of space with seemingly limitless potential for thought and scientific progress, inhabited by beings named Powers of impossible to understand substance. Are they races of aliens? Computer programs? Or perhaps, similar to that in 'A Space Odyssey' in which we simply cannot begin to understand, science fiction's own Lovecraftian beings that our human minds are not able to comprehend. Vinge's treatement of these beings is show rather than tell. The idea is deliberately left unexplored for the most part, which adds mystery and uncertainty to the narrative in a move willingly chosen, rather than due to any of his limits as an author.",
-             "I can also confidently say that 'A Fire Upon the Deep' describes my favourite aliens I've encountered in science fiction. Again in Vinge's style this race, dubbed the Tines, is shown in the midst of a power struggle without much explanation of their foreign creation and way of living. While this is at first disorienting it's rewarding to us as the reader to understand by our own efforts more of this race's culture and way of living. This takes some time but it is absolutely worthy of the effort. Without going into details of what makes this species so unique, the ideas presented once again felt so novel and endearing, and for me there's almost a bittersweet feeling that outside of this novel there is no more to this deep world and culture.",
-             "I tore through the last half of this book, as the narrative leads to a climax of such great weight it's impossible to fully comprehend. However, for me at least I did feel there were some flaws to this incredible epic. Firstly, while I previously mentioned the style of show not tell to hint at greater depths than we could comprehend, this does on occasion limit the depth of the adventure. It's a fine balance to strike a chord of hinting at more in the universe without giving details, and sometimes this did feel like it was just oversimplifying the story to result in thinner patches of narrative at points. Secondly, even though it is more recent than most entries in this collection and that works in its favour, at points the writing does feel outdated, especially considering the setting millenia in the future. The main social network used in the book copies that of real life 'Usenet' (which I had to look up to understand the reference). When reading this in the 21st century it feels hard to imagine aliens millenia from now using a similar design. Another slightly painful ageing in the book is the language used at points. For example, an enraged ship pilot at one point calls the cental heroine a 'slut' which felt out of place and is perhaps best left in the 90s. Finally, bizarrely, this edition of the book in the SF Masterworks collection had more typos than any other book I've read in the series. Even the blurb has a typo, a disservice to an epic of these proportions which frequently took me out of the immersion.",
-            "It's hard to understate this story or the ideas presented within. While there are some small issues, I really enjoyed this book and wouldn't hesitate to recommend it. Perhaps that's just for the Tines, that endearing and wholly original alien race that was the heart of the book to me."],
-            "Image": "https://www.sfgateway.com/wp-content/uploads/2018/07/hbg-title-9781473211957-384.jpg?w=185",
-            "Themes": ["Interesting Aliens", "Good Writing", "Fun to Read", "Modern"]
-        }
-    ]
-    
+  "Themes": [
+    "Plot Twist",
+    "Set On Earth",
+    "Interesting Aliens",
+    "Good Writing",
+    "Fun to Read",
+    "Realistic",
+    "Modern",
+    "Compilation"
+  ],
+  "Books": [
+    {
+      "Id": 0,
+      "Title": "The Hitchhiker's Guide to the Galaxy",
+      "Author": "Douglas Adams",
+      "Blurb": "One Thursday lunchtime Earth is unexpectedly demolished to make way for a new hyperspace bypass. For Arthur Dent, who has only just had his house demolished that morning, this is already more than he can cope with. Sadly, however, the weekend has only just begun. And the Galaxy is a very, very large and startling place indeed...",
+      "Quote": "The ships hung in the sky in much the same way that bricks don't.",
+      "Rating": 8,
+      "PublishDate": "1979",
+      "Review": [
+        "The Hitchhiker's Guide to the Galaxy, as you can probably tell by the title, is a really fun book, with some classic British humour and some wacky characters. After the success of this first book the series was developed, with some in the series much better than others. While it can be difficult with older books still being funny, the humour in this is timeless. Douglas Adams is similar to American sci-fi writer Kurt Vonnegut in his bizarre sci-fi ideas coupled with the pointless and clueless existence of mankind. We as the reader encounter the extraordinary aliens and robots in this story through the very relatable eyes of unassuming British protagonist Arthur Dent. This book was born from an orginal BBC radio show written by Adams, which was then further rewritten as a movie starring Martin Freeman. Among the notable characters of the story are: Genius dolphins who've played mankind for fish, a depressed robot (voiced in the film by Alan Rickman), repulsive alien race Vogons who have a misplaced passion for poetry and a machine which knows the answers to the universe (42). The book is well worth a read, though might feel a little dated in parts with the amount of cultural references sprinkled throughout."
+      ],
+      "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575115347-329.jpg?fit=437%2C675",
+      "Themes": [
+        "Set On Earth",
+        "Interesting Aliens",
+        "Good Writing",
+        "Fun to Read",
+        "Modern"
+      ]
+    },
+    {
+      "Id": 1,
+      "Title": "Dune",
+      "Author": "Frank Herbert",
+      "Blurb": "The Duke of Atreides has been manoeuvred by his arch-enemy, Baron Harkonnen, into administering the desert planet of Dune. Although it is almost completely without water, Dune is a planet of fabulous wealth, for it is the only source of a drug prized throughout the Galactic Empire. The Duke and his son, Paul, are expecting treachery, and it duly comes - but from a shockingly unexpected place. Then Paul succeeds his father, and he becomes a catalyst for the native people of Dune, whose knowledge of the ecology of the planet gives them vast power. They have been waiting for a leader like Paul Atreides, a leader who can harness that force...",
+      "Quote": "Deep in the human unconscious is a pervasive need for a logical universe that makes sense. But the real universe is always one step beyond logic.",
+      "Rating": 7,
+      "PublishDate": "1965",
+      "Review": [
+        "If you ask any science fiction fan what they think the best piece of fiction in the genre is, more often than not Dune will be mentioned. Made relevant again today with the blockbusters released recently by Denis Villeneuve (who also directed the fantastic science fiction film Arrival) Dune isn't going anywhere soon. Set on the desert world of Arrakis, we experience a brutal and mysterious ecosystem of secretive tribes and gargantuan sand worms. Frank Herbert expanded the book into a series, which was continued (with varying success) by his son after his passing. I read Dune a while ago, when I may have been a little too young for it. I had to reread the first 50 pages after realising I had no idea what was happening. It's a science fiction legend that I'm sure is loved for a reason, and one day I hope to appreciate it the same way masses of other fans do."
+      ],
+      "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575081505-451.jpg?fit=436%2C675",
+      "Themes": ["Interesting Aliens"]
+    },
+    {
+      "Id": 2,
+      "Title": "The Sirens of Titan",
+      "Author": "Kurt Vonnegut",
+      "Blurb": "When Winston Niles Rumfoord flies his spaceship into a chrono-synclastic infundibulum he is converted into pure energy and only materializes when his waveforms intercept Earth or some other planet. As a result, he only gets home to Newport, Rhode Island, once every fifty-nine days and then only for an hour. But at least, as a consolation, he now knows everything that has ever happened or that will ever happen",
+      "Quote": "There is no reason why good cannot triumph as often as evil. The triumph of anything is a matter of organization. If there are such things as angels, I hope that they are organized along the lines of the Mafia.",
+      "Rating": 8,
+      "PublishDate": "1959",
+      "Review": [
+        "Reading The Sirens of Titan had a profound impact on me, and really made me realise what was possible in the genre. \r Kurt Vonnegut writes in a way unparalleled by any other author I've encountered. His work is at once deep and profound, yet so casual and throw away it all feels like a big joke. And to Vonnegut, it is. Everything we hold dear is unimportant, pointless, and for the most part, unchangeable (so why worry?). \r While this sounds pretty harsh, there is some solace to be found in this conclusion. By highlighting the foolishness of humanity, and pairing it with an unforgiving universe with a sense of humour, there's a kind of solace in knowing that we can't mess up too badly for it to matter. (If you read the book, you know it's not as bad as a certain other character who makes a certain other mistake)! The Sirens of Titan is a book I think perfectly captures Vonnegut's main ideas. His most popular work, Slaughterhouse 5, is a brilliant work of fiction, but doesn't go as wild as this novel. All of the bizarre seemingly unrelated plot threads not only tie up to a clean resolution, but also end up so tightly intertwined it's a marvel to even begin to understand it. Especially with the time jumping, what at first seems like nonsensical fun reveals itself to be a masterpiece with a much deeper meaning."
+      ],
+      "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9781857988840-399.jpg?fit=439%2C675",
+      "Themes": [
+        "Set On Earth",
+        "Interesting Aliens",
+        "Good Writing",
+        "Fun to Read",
+        "Modern"
+      ]
+    },
+    {
+      "Id": 3,
+      "Title": "Flowers For Algernon",
+      "Author": "Daniel Keyes",
+      "Blurb": "Charlie Gordon, IQ 68, is a floor sweeper, and the gentle butt of everyone's jokes, until an experiment in the enhancement of human intelligence turns him into a genius. But then Algernon, the mouse whose triumphal experimental transformation preceded his, fades and dies, and Charlie has to face the possibility that his salvation was only temporary",
+      "Quote": "I don't know what's worse: to not know what you are and be happy, or to become what you've always wanted to be, and feel alone.",
+      "Rating": 10,
+      "PublishDate": "1966",
+      "Review": [
+        "Flowers for Algernon now and always will be one of my all time favourite books, regardless of genre. it still surprises me how a book over 60 years old still comes across with so much heart that still affects the reader in the modern day. At the time of my first reading I had never read anything so original. The book is written from Charlie's perspective, as his own diary. Because we first meet Charlie as a mentally disabled bakery cleaner, the butt of everyones affectionate but cutting jokes, his diary entries are littered with spelling mistakes and a childlike perspective of the world. As the plot progresses and Charlie gains increased intelligence, we see the same world in his new perspective, and get a real insight into his mind as he navigates his strange new world. An aspect of this I love is the exploration of how intelligence affects his relations with friends, colleagues and lovers. Seeing the contrast between a handicapped Charlie pining to be smarter and a vastly educated Charlie struggling to come to terms with the world makes it almost feel like two separate characters completely. Keyes writes both wildly different perspectives perfectly, bringing what could feel like two separate novellas in the hands of a lesser author into a brilliant and desperate narrative. Flowers for Algernon is a book I hope to always come back to, and I don't think I'll ever be unaffected by the brilliant but painful ending."
+      ],
+      "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575088498-94.jpg?fit=440%2C675",
+      "Themes": [
+        "Plot Twist",
+        "Set On Earth",
+        "Good Writing",
+        "Fun to Read",
+        "Realistic"
+      ]
+    },
+    {
+      "Id": 4,
+      "Title": "Sirius",
+      "Author": "Olaf Stapledon",
+      "Rating": 6,
+      "PublishDate": "1944",
+      "Blurb": "Sirius is Thomas Trelone's great experiment - a huge, handsome dog with the brain and intelligence of a human being. Raised and educated in Trelone's own family alongside Plaxy, his youngest daughter, Sirius is a truly remarkable and gifted creature. His relationship with the Trelones, particularly with Plaxy, is deep and close, and his inquiring mind ranges across the spectrum of human knowledge and experience. But Sirius isn't human and the conflicts and inner turmoil that torture him cannot be resolved.",
+      "Quote": "“I'm afraid I'm not working out according to plan,” he said. “But if I am really a person you shouldn't expect me to. Why did you make me without making a world for me to live in. It's as though God had made Adam and not bothered to make Eden, nor Eve. I think it's going to be frightfully difficult being me.”",
+      "Review": [
+        "I read Sirius about 6 years ago, so my memory of this book isn't the best. That's one of its main issues, it just doesn't really stand out. I remember at the time actually enjoying it, until I saw a review of it which pretty quickly made me see it a different way. The review described the book as Frankenstein, if Frankenstein's creation was not a revived corpse amalgamation but instead a dog - and that's actually pretty accurate. The book is sentimental, and at times very sweet. We struggle alongside Sirius as he adjusts to life in a human world trapped in a dogs body which causes him to struggle to read books or play the piano. All the while, he struggles watching his very human sister blossom and live her life as a human woman. In its favour, the book does make us think about what makes life worth living and highlights the struggle to survive for beings who don't fit into the standard mold. Did I enjoy reading the book? Yes, absolutely. Would I recommend it? I can't. Though vintage science fiction, in hindsight the plot seems more like it would suit a short story better."
+      ],
+      "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575099425-119.jpg?fit=441%2C675",
+      "Themes": ["Set On Earth", "Good Writing", "Fun to Read", "Modern"]
+    },
+    {
+      "Id": 5,
+      "Title": "The War of the Worlds",
+      "Author": "H. G. Wells",
+      "Blurb": "When an alien capsule lands on Horsell Common, Woking, crowds of astonished onlookers gather. But wonder soon turns to terror when the Martians emerge. Armed with deadly heat rays, the aliens begin their conquest of earth. Confronted by powers beyond our control, a technology far in advance of our own, and a race of alien invaders which regard us as no more than ants, humankind faces extinction. While the world crumbles under the shadow of the Martian menace, one man sets out alone across the desolate wasteland to find his wife.",
+      "Quote": "No one would have believed in the last years of the nineteenth century that this world was being watched keenly and closely by intelligences greater than man's and yet as mortal as his own; that as men busied themselves about their various concerns they were scrutinised and studied, perhaps almost as narrowly as a man with a microscope might scrutinise the transient creatures that swarm and multiply in a drop of water.",
+      "Rating": 4,
+      "PublishDate": "1897",
+      "Review": [
+        "This might be THE ultimate example of a science fiction book. Also as one of the oldest in this list, The War of the Worlds suffers in modern day for being generic due to the fact it is pretty much the basis of the genre, at least as far as evil invading aliens. H. G. Wells is also a household name, with notable works also including The Invisible Man and The Time Machine. I grew up listening to the CD of the radio musical performance, and as a kid I loved and was terrified by the film starring Tom Cruise. With all of this said, I really struggled with this book. It's age shows on every page (unsurprising at over 120 years old, I know) and the writing is slow and for the most part, impossibly given the subject material, pretty dull. The novel takes place in and around London, and the sheer number of references to real life locations is totally lost on someone who doesn't have much information on London past the Monopoly board. For its age the ideas in this book are extraordinary and its influence is undeniable. It seems to have a similar problem to a lot of Lovecraft's stories. Great and original ideas, but stuck in its outdated language and ancient attitudes to way of life in contrast to the present day. It just isn't a fun read for me."
+      ],
+      "Image": "https://i.pinimg.com/736x/44/21/08/44210868b71c16b73c8553eb340a08f3.jpg",
+      "Themes": ["Set On Earth", "Interesting Aliens", "Realistic"]
+    },
+    {
+      "Id": 6,
+      "Title": "Inverted world",
+      "Author": "Christopher Priest",
+      "Blurb": "The city is winched along its tracks through a devastated world. Rails must be laid ahead of it and removed in its wake. If the city does not move, it will fall behind the \"optimum\" and into a crushing gravitational field. The alternative to progress is death. The rulers of the city make sure its inhabitants know nothing of this. But the dwindling population is growing restive. And the rulers know that the city is falling further and further behind",
+      "Quote": "I had reached the age of six hundred and fifty miles.",
+      "Rating": 10,
+      "PublishDate": "1974",
+      "Review": [
+        "The first sentence alone of this book (given as the quote above) sets the tone for an immensely original and intriguing adventure for the reader. We follow the character of Helward Mann, a citizen of the moving city. We see him grow from a young man into full adult and follow his journey in different roles in the city. This exposure gives us insight into the painful logisitics of their conundrum and feel the same fear of falling behind the optimum - the threat of being crushed by the gravitational field. This book gets weird, in a brilliant and scientific way. There is the threat of so many mysteries not being satisfyingly resolved. For example, what is the optimum, why the gravity fields, why is the city called \"Earth\" and why is the number of female births declining? Yet, even with all of these questions, Christopher Priest comes through with a blunt but satisfying conclusion. I couldn't have guessed at the twist the book presented at the end, a shift of perspective so memorable I value this book so highly. There is of course much more to this book tha its brilliant ending, with exploration into dynamics of civilization, gender roles, and governmental control. I don't want to give anything away, but I strongly encourage anyone to read this novel."
+      ],
+      "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575082106-150.jpg?fit=440%2C675",
+      "Themes": [
+        "Plot Twist",
+        "Set On Earth",
+        "Good Writing",
+        "Fun to Read",
+        "Modern"
+      ]
+    },
+    {
+      "Id": 7,
+      "Title": "Mission of Gravity",
+      "Author": "Hal Clement",
+      "Blurb": "Mesklin is a vast, inhospitable, disc-shaped planet, so cold that it's oceans are liquid methane and it's snows are frozen ammonia. It is a world spinning dizzyingly, a world where gravity can be a crushing 700 times greater than Earth's, a world too hostile for human explorers. But the planet holds secrets of inestimable value, and an unmanned probe that has crashed close to one of its poles must be recovered. Only the Mesklinites, the small creatures so bizarrely adapted to their harsh environment, can help. And so Barlennan, the resourceful and courageous captain of the Mesklinite ship Bree, sets out on an heroic and appalling journey into the terrible unknown. For him and his people, the prize to be gained is as great as that for mankind...",
+      "Rating": 7,
+      "PublishDate": "1953",
+      "Review": [
+        "With some works of science fiction, a brilliant original idea when followed through can create a well rounded and intriguing narrative. In this case, what would an existence look like on a planet with gravity over 700 times the power of that we have on Earth? For the millipede like aliens of Mesklin, this is a day to day reality, a reality where a drop a foot deep is a mortal threat and can prove an insurmountable obstacle. This book isn't fully alien, however, we do see the narrative from Charles Lackland as well as Mesklinite Barlennan. It's refreshing to read a science fiction story of cooperation rather than the all so common aggresion between alien species. The book is dated, but absolutely worth reading for its genuinely original ideas."
+      ],
+      "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9781473206380-114.jpg?fit=440%2C675",
+      "Themes": [
+        "Interesting Aliens",
+        "Good Writing",
+        "Fun to Read",
+        "Realistic"
+      ]
+    },
+    {
+      "Id": 8,
+      "Title": "The Book of Skulls",
+      "Author": "Robert Silverberg",
+      "Blurb": "Four students discover a manuscript, The Book of Skulls, which reveals the existence of a sect, now living in the Arizona desert, whose members can offer immortality to those who can complete its initiation rite. To their surprise, they discover that the sect exists, and is willing to accept them as acolytes. But for each group of four who enter the rite, two must die in order for the others to succeed.",
+      "Quote": "Was that a sly smile of the initiate, or a dumb smile of bluffing?",
+      "Rating": 4,
+      "PublishDate": "1972",
+      "Review": [
+        "'The Book of Skulls' is a strange book for me to write about, and one I have mixed feelings for. It's also the one on this list I feel lies out of place, as in my opinion there isn't actually that much science fiction present in the book. The main part of the book is dedicated to the four students, their personalities and interactions with each other as they take the journey to go to this elusive temple. It seems more to focus on the youth and their attitudes and actions in their setting.",
+        "Each of the four characters have their own demons and these come to light through the journey of the book. It's refreshing to see different viewpoints of each of the characters as we study how they interact with each other and try to understand their unique motives. However, this only works to a point as without a strong hook of plot advancement this doesn't progress more than just character studies. I was left frustrated by the opaqueness of the books plot, and have unpleasant memories of an unsatisfying conclusion. It's hard to say much more, when there isn't much to comment on in this work."
+      ],
+      "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575106260-40.jpg?fit=441%2C675",
+      "Themes": ["Set On Earth", "Realistic"]
+    },
+    {
+      "Id": 9,
+      "Title": "Time Out of Joint",
+      "Author": "Philip K. Dick",
+      "Blurb": "Ragle Gumm is an ordinary man leading an ordinary life, except that he makes his living by entering a newspaper contest every day - and winning, every day. But he gradually begins to suspect that his life - indeed his whole world - is an illusion, constructed around him for the express purpose of keeping him docile and happy. But if that is the case, what is his real world like, and what is he actually doing every day when he thinks he is guessing 'Where Will The Little Green Man Be Next?'",
+      "Quote": "In a civil war... every side is wrong. It's hopeless to try to untangle it. Everyone is a victim.",
+      "Rating": 8,
+      "PublishDate": "1959",
+      "Review": [
+        "Unfortunately I'm not such a fan of Philip K. Dick's works. That said, it's impossible to ignore his titan influence over the genre and the incredible ideas he has made and pushed forwards. For me there is just something distant in his writing that I struggle to connect with. That said, 'Time Out of Joint' is the closest I've came to appreciating his undeniable genius. While seen as a pretty standard submission among others of his works such as 'Do Androids Dream of Electric Sheep?' (the basis for Blade Runner) I really enjoyed reading this book. Perhaps this is due to the bizarre and intriguing central plot, an idea I found so fun and interesting. Parts of the book didn't work for me so well (slips of paper if you know) but for the most part I enjoyed the journey. The ending was well written and worthwhile, and for me did a valiant effort of piecing together what is otherwise a bizarre story and in the hands of a lesser author could've fizzled out to have been a timewaster.",
+        "The book, like Dick's other works, touch on some pretty grand ideas, though saying explicitly which themes gives away a central part of the plot. I've always found stories focusing on unassuming characters appealing, as if pointing out the reader to show that it could be us going on this journey instead. Perhaps the book will make you question your own reality, though if it's similar to the truth given in the book, I hope for your sake it isn't."
+      ],
+      "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575098329-28.jpg?fit=440%2C675",
+      "Themes": ["Plot Twist", "Set On Earth", "Fun to Read"]
+    },
+    {
+      "Id": 10,
+      "Title": "The Day of the Triffids",
+      "Author": "John Wyndham",
+      "Blurb": "When Bill Masen wakes up in his hospital bed, he has reason to be grateful for the bandages that covered his eyes the night before. For he finds a population rendered blind and helpless by the spectacular meteor shower that filled the night sky, the evening before. But his relief is short-lived as he realises that a newly-blinded population is now at the mercy of the Triffids. Once, the Triffids were farmed for their oil, their uncanny ability to move and their carnivorous habits well controlled by their human keepers. But now, with humans so vulnerable, they are a potent threat to humanity's survival. It is up to people like Bill, the few who can still see, to carve out a future for the human race...",
+      "Quote": "When a day that you happen to know is Wednesday starts off by sounding like Sunday, there is something seriously wrong somewhere.",
+      "Rating": 7,
+      "PublishDate": "1951",
+      "Review": [
+        "With old works, science fiction especially, there's a real risk of the work becoming so outdated as to not appeal to a modern audience except for hardcore enthusiasts. To me 'The War of The Worlds' epitomises this. However, certain books are written in such a way, somehow, to maintain their charm and can still be easily enjoyed decades later. 'Frankenstein' is an example which comes to mind, and also in this case 'The Day of The Triffids'. This book, I believe, started some thematic tropes that have been again and again repeated through time. For example, what do 'The Day of The Triffids', 'The Walking Dead' and '28 Days Later' all have in common? For one, they all feature our hero stumbling from a hospital disoriented and facing a bizarre new world taken over by a malicious power. Pretty standard stuff perhaps, until you remember that this book was written in 1951.",
+        "I find works exploring the downfall of civilization spellbinding, we are offered an insight into base human behaviour as we see savagery and cruelness often take over. This too happens in 'The Day of The Triffids', among the alien killer plants of course. Perhaps a tad corny at times, this journey is still great fun and a classic vintage read of the science fiction genre."
+      ],
+      "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9781473212671-123.jpg?fit=437%2C675",
+      "Themes": ["Set On Earth", "Interesting Aliens", "Fun to Read"]
+    },
+    {
+      "Id": 11,
+      "Title": "The Body Snatchers",
+      "Author": "Jack Finney",
+      "Rating": 4,
+      "PublishDate": "1955",
+      "Blurb": "When Becky Driscoll turns up at Dr Miles Bennell's consulting room after hours one August evening and tells him that her cousin Wilma doesn't think that her Uncle Ira is really her Uncle Ira, it is just the beginning of a nightmare. As the number of similar stories multiplies, Miles discovers the horrific truth. Aliens are taking over the bodies and minds of his friends and neighbours...",
+      "Quote": "I think it must actually be possible to lose your mind in an instant, and that perhaps I came very close to it.",
+      "Review": [
+        "I really struggled with a lot of this book. Unlike 'The Day Of the Triffids' I felt the age in this book prominently through each chapter. The characters are fairly flat, down to the smart and quick witted doctor to the emotional and flirtacious female counterparts. Without specifics about the finale of the book, I was let down by the reasoning of the end and didn't feel it was a worthwhile read.",
+        "There are some certain saving graces to the book however. The exploration into madness, or perceived madness, are of interest and how people much or little people pay attention to these hysterics. There are also some great images set out in the book, especially of the formation of the fake bodies from the pods and this truly alien process. Of course, this book resulted in the classic 'Invasion of The Body Snatchers' film from 1978 starring Donald Sutherland, interestingly opting for a different ending from the book. Perhaps that is why I vastly prefer the film. Another point in this books favour is the fantastic cover art for this in the SF Masterworks collection, easily one of the best in my opinion in the series."
+      ],
+      "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575085312-65.jpg?fit=437%2C675",
+      "Themes": ["Set On Earth", "Interesting Aliens", "Fun to Read"]
+    },
+    {
+      "Id": 12,
+      "Title": "More Than Human",
+      "Author": "Theodore Sturgeon",
+      "Rating": 4,
+      "PublishDate": "1953",
+      "Blurb": "All alone: an idiot boy, a runaway girl, a severely retarded baby, and twin girls with a vocabulary of two words between them. Yet once they are mysteriously drawn together this collection of misfits becomes something very, very different from the rest of humanity.",
+      "Quote": "“Just think about it,” he said softly. “You can do practically anything. You can have practically everything. And none of it will keep you from being alone.”",
+      "Review": [
+        "'More Than Human' offers a fascinating perspective on the stage of the evolution of mankind, and how this could happen. The way in which it happens in the book is fast and painful, leaving multiple casualties in its wake. I went through different levels of appreciation of the book, what was an enjoyable and evocative section of the book would lead to another part which didn't work so well for me. The narrative is deliberately split into three sections which are interconnected, and while this does work effectively for me certain parts were stronger than others.",
+        "It's undeniable that some of the ideas here are novel and exciting, I just find it a shame it's weighed down by the rest of the narrative of the book. 'More Than Human' is acclaimed, both at the time of release and retroactively, and while I don't think this is unfairly given I would hesitate to recommend this. Some good ideas, but for me the price is too high to be worthwhile."
+      ],
+      "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575110106-30.jpg?fit=440%2C675",
+      "Themes": ["Set On Earth"]
+    },
+    {
+      "Id": 13,
+      "Title": "Tau Zero",
+      "Author": "Poul Anderson",
+      "Rating": 7,
+      "PublishDate": "1970",
+      "Blurb": "During her epic voyage to a planet thirty light-years away, the deceleration system of the Leonora Christine is irreparably damaged. Unable to slow down, she attains light speed, tau zero itself, and the disparity between time for those on board and external time becomes impossibly great. Eons and galaxies hurtle by in the blink of an eye as the crew speeds helpless and alone into the unknown...",
+      "Quote": "for a moment infinitesimal and infinite, men, women, child, ship, and death were one.",
+      "Review": [
+        "I've often noticed that when 'Hard Science Fiction' is mentioned, 'Tau Zero' is a common example given to demonstrate the concept. Hard Science Fiction is realistic, and attempts to be as feasible as possible using real life physics principles. Tau Zero achieves this well, as well as examing human behaviour in extreme circumstances. While some of the science is of course a tad heavy and a bit hand wavey at points, the book feels realistic enough to work and this keeps the journey moving, along with the interesting contrast of the human relationships and drama on board the ship and how this develops under the great toll of stress of their seemingly doomed fate. While to me there is nothing particularly outstanding about 'Tau Zero', I believe the book does what it aims to do well with a satisfying resolution for the range of characters included who we get to know, in a limited fashion. I'm grateful I read it, but I'm also grateful it wasn't longer."
+      ],
+      "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575088047-22.jpg?fit=438%2C675",
+      "Themes": [
+        "Plot Twist",
+        "Interesting Aliens",
+        "Good Writing",
+        "Realistic"
+      ]
+    },
+    {
+      "Id": 14,
+      "Title": "Hard To Be A God",
+      "Author": "Arkady & Boris Strugatsky",
+      "Blurb": "Anton is an undercover operative from future Earth, who travels to an alien world whose culture has not progressed beyond the Middle Ages. Although in possession of far more advanced knowledge than the society around him, he is forbidden to interfere with the natural progress of history. His place is to observe rather than interfere - but can he remain aloof in the face of so much cruelty and injustice...?",
+      "Quote": "On his fingers... But it wasn't blood - only strawberry juice.",
+      "Rating": 8,
+      "PublishDate": "1964",
+      "Review": [
+        "I have an interesting experience reading the Strugatsky brothers works. Arguably their most successful work is 'Roadside Picnic' which went on to inspire a film and multiple games (STALKER, Tunguska: The Visitation) but is one where I love the concept but detest the book and the reading experience. However, other works like 'Hard To Be A God' or 'The Inhabited Island' I adored. I'm not sure what causes this issue. 'Hard To Be A God' was the first Strugatsky piece I read, being attracted to the intriguing cover art and the interesting sounding authors, who I learnt are famous Soviet Science Fiction writers. What is difficult going at first with dense and sometime opaque writing gave way, to me, to an imaginative story hinting at a fully realised universe.",
+        "We follow Don Rumata (real name Anton) who acts as a duke in a medieval scoeity of an alien world, who's real purpose is to act as an undercover operative from a more advanced world. The main struggle depicted in the book is that of an internal conflict for Anton, as he is prohibited from getting too actively involved in influencing this world's progression. This conflict only deepens as he becomes further ingrained in this world, and falls in love with a young woman. We see the depiction of a cruel and seemingly stunted medieval society as Anton struggles to gently push the world's progression through a path to eventually lead to a utopic society, similar to his own. The ideas presented here enchanted me, the conflict of technology and beliefs, of power imbalance and understanding the importance of independence .The majority of the book takes place on this cruel world, with only hints and small passages alluding to a better world from Anton's life. It's a clever strategy to not have it as more of a presence, so to me it almost acts as a dream that for most is unobtainable.",
+        "The book finally created a 2013 Russian film of the same name which I am yet to watch. It also inspired its own game, 'Hard to Be a God' which is a little outdated. I also ran the idea of this book as a DnD oneshot for my friends, who enjoyed grappling with the deep questions presented of how much control to exert, and to what extent they could, and should, influence the fate of these people."
+      ],
+      "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9781473208292-244.jpg?fit=438%2C675",
+      "Themes": ["Plot Twist", "Good Writing", "Fun to Read", "Realistic"]
+    },
+    {
+      "Id": 15,
+      "Title": "Babel-17",
+      "Author": "Samuel R. Delaney",
+      "Rating": 7,
+      "PublishDate": "1966",
+      "Blurb": "In the far future, after human civilization has spread through the galaxy, communications begin to arrive in an apparently alien language. They appear to threaten invasion, but in order to counter the threat, the messages must first be understood.",
+      "Quote": "“Do they have this word, I?” “As a matter of fact they have three forms of it: I-below-a-temperature-of-six-degrees-centigrade, I-between-six-and-ninety-three-degrees-centigrade, and I-above-ninety-three.” The Butcher looked confused. “It has to do with their reproductive process,” Rydra explained. “When the temperature is below six degrees they're sterile. They can only conceive when the temperature is between six and ninety-three, but to actually give birth, they have to be above ninety-three.”",
+      "Review": ["Review to follow..."],
+      "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575094208-212.jpg?fit=438%2C675",
+      "Themes": [
+        "Plot Twist",
+        "Interesting Aliens",
+        "Good Writing",
+        "Fun to Read"
+      ]
+    },
+    {
+      "Id": 16,
+      "Title": "The Inhabited Island",
+      "Author": "Arkady & Boris Strugatsky",
+      "Rating": 9,
+      "PublishDate": "1969",
+      "Blurb": "When Maxim Kammerer, a young space explorer from twenty-second-century Earth, crash-lands on an uncharted world, he thinks of himself as a latter-day Robinson Crusoe. Eager to establish first contact with the planet's humanlike inhabitants, he finds himself increasingly entangled in their primitive way of life. After his experiences in their nightmarish military, criminal justice, and mental health systems, Maxim begins to realize that his sojourn on this radioactive and war-scarred world will not be a walk in the park.",
+      "Quote": "\"By the way, Boar, don't forget to tell your friends that you don't live on the inner surface of a sphere. You live on the outer surface of a sphere. And there are many such spheres in existence on which people live far worse than you do, and some on which they live far better. But nowhere do they live more stupidly . . . You don't believe me? Well, to hell with you anyway. I'm going.\"",
+      "Review": ["Review to follow..."],
+      "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2020/10/hbg-title-9781473232457-18.jpg?fit=440%2C675",
+      "Themes": [
+        "Interesting Aliens",
+        "Plot Twist",
+        "Good Writing",
+        "Fun to Read",
+        "Realistic"
+      ]
+    },
+    {
+      "Id": 17,
+      "Title": "The Man Who Fell to Earth",
+      "Author": "Walter Tevis",
+      "Blurb": "Thomas Jerome Newton is an extraterrestrial from the planet Anthea, which has been devastated by a series of nuclear wars and whose inhabitants are twice as intelligent as human beings. When he lands on Earth—in Kentucky, disguised as a human—it's with the intention of saving his own people from extinction. Newton patents some very advanced Anthean technology, which he uses to amass a fortune. He begins to build a spaceship to help the last 300 Antheans migrate to Earth. Meanwhile, Nathan Bryce, a chemistry professor in Iowa, is intrigued by some of the new products Newton's company brings to the market and already suspects Newton of being an alien. As Bryce and the FBI close in, Newton finds his own clarity and sense of purpose diminishing.",
+      "Quote": "\"Do you realize that you will not only wreck your civilization, such as it is, and kill most of your people; but that you will also poison the fish in your rivers, the squirrels in your trees, the flocks of birds, the soil, the water? There are times when you seem, to us, like apes loose in a museum, carrying knives, slashing the canvases, breaking the statuary with hammers.\"",
+      "Rating": 6,
+      "PublishDate": "1963",
+      "Review": ["Review to follow..."],
+      "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9781473213111-232.jpg?fit=442%2C675",
+      "Themes": [
+        "Interesting Aliens",
+        "Good Writing",
+        "Plot Twist",
+        "Realistic"
+      ]
+    },
+    {
+      "Id": 18,
+      "Title": "Roadside Picnic",
+      "Author": "Arkady & Boris Strugatsky",
+      "Blurb": "Red Schuhart is a stalker, one of those strange misfits who are compelled by some unknown force to venture illegally into the Zone and, in spite of the extreme danger, collect the mysterious artefacts that the alien visitors left scattered around. His life is dominated by the Zone and the thriving black market in the alien products. Even the nature of his daughter has been determined by the Zone. And it is for her that Red makes his last, tragic foray into the hazardous and hostile depths.",
+      "Quote": "A picnic. Picture a forest, a country road, a meadow. Cars drive off the country road into the meadow, a group of young people get out carrying bottles, baskets of food, transistor radios, and cameras. They light fires, pitch tents, turn on the music. In the morning they leave. The animals, birds, and insects that watched in horror through the long night creep out from their hiding places. And what do they see? Old spark plugs and old filters strewn around... Rags, burnt-out bulbs, and a monkey wrench left behind... And of course, the usual mess—apple cores, candy wrappers, charred remains of the campfire, cans, bottles, somebody's handkerchief, somebody's penknife, torn newspapers, coins, faded flowers picked in another meadow.",
+      "Rating": 3,
+      "PublishDate": "1972",
+      "Review": ["Review to follow..."],
+      "Image": "https://www.orionbooks.co.uk/wp-content/uploads/2018/07/hbg-title-9780575093133-444.jpg?fit=440%2C675",
+      "Themes": ["Set On Earth", "Realistic"]
+    },
+    {
+      "Id": 19,
+      "Title": "Blood Music",
+      "Author": "Greg Bear",
+      "Blurb": "Virgil Ulam is a maverick researcher working on biochips which will use DNA as a means of information processing. Ignoring guidelines for genetic research, he goes further, producing intelligent cellular matter which can outperform laboratory rats. On being found out and ordered to destroy the experiment, he injects himself with some of the culture, and walks out carrying a seed which will develop far beyond the limits of his brilliant but blinkered imagination.",
+      "Quote": "They're trying to understand what space is. That's tough for them. They break distances down into concentrations of chemicals. For them, space is a range of taste intensities.",
+      "Rating": 9,
+      "PublishDate": "1985",
+      "Review": ["Review to follow..."],
+      "Image": "https://www.sfgateway.com/wp-content/uploads/2013/12/Blood-Music.jpg",
+      "Themes": [
+        "Plot Twist",
+        "Set On Earth",
+        "Good Writing",
+        "Fun to Read",
+        "Realistic",
+        "Modern"
+      ]
+    },
+    {
+      "Id": 20,
+      "Title": "Dr Bloodmoney",
+      "Author": "Philip K. Dick",
+      "Blurb": "Seven years after the day of the bombs, Point Reyes was luckier than most places. Its people were reasonably normal - except for the girl with her twin brother growing inside her, and talking to her. Their barter economy was working. Their resident genius could fix almost anything that broke down. But they didn't know they were harbouring the one man who almost everyone left alive wanted killed...",
+      "Quote": "Only death can get us out of this and maybe not even death. Maybe it's too late; we'll carry this deterioration with us to the next life.",
+      "Rating": 6,
+      "PublishDate": "1965",
+      "Review": ["Review to follow..."],
+      "Image": "https://www.sfgateway.com/wp-content/uploads/2018/07/hbg-title-9781473201682-157.jpg?w=437",
+      "Themes": ["Plot Twist", "Set On Earth", "Fun to Read"]
+    },
+    {
+      "Id": 21,
+      "Title": "The Stars My Destination",
+      "Author": "Alfred Bester",
+      "Blurb": "Gully Foyle, Mechanic's Mate 3rd Class. EDUCATION: none SKILLS: none MERITS: none RECOMMENDATIONS: none. That's the official verdict on Gully Foyle, unskilled space crewman. But right now he is the only survivor on his drifting, wrecked spaceship, and when another space vessel - the Vorga - ignores his distress flares and sails by, Gully becomes obsessed with revenge. He endures 170 days alone in deep space before finding refuge on the Sargasso Asteroid and returning to Earth to track down the crew and owners of the Vorga. But, as he works out his murderous grudge, Gully Foyle also uncovers a secret of momentous proportions...",
+      "Quote": "'There's got to be more to life than just living', Foyle said to the robot. 'Then find it for yourself, sir. Don't ask the world to stop moving because you have doubts.'",
+      "Rating": 9,
+      "PublishDate": "1956",
+      "Review": ["Review to follow..."],
+      "Image": "https://www.sfgateway.com/wp-content/uploads/2018/07/hbg-title-9780575094192-303.jpg?w=439",
+      "Themes": ["Plot Twist", "Set On Earth", "Good Writing", "Fun to Read"]
+    },
+    {
+      "Id": 22,
+      "Title": "The Wind's Twelve Quarters & The Compass Rose",
+      "Author": "Ursula K. Le Guin",
+      "Blurb": "Grand Master Ursula K. Le Guin has been recognised for almost fifty years as one of the most important writers in the SF field - and is likewise feted beyond the confines of the genre. The Wind's Twelve Quarters was her first collection and it brings together some of the finest short fiction, including the Hugo Award-winning 'The Ones Who Walk Away from Omelas', the Nebula Award-winning 'The Day Before the Revolution', and the Hugo-nominated 'Winter's King', which gave readers their first glimpse of the world later made famous in her Hugo- and Nebula-winning masterpiece The Left Hand of Darkness.",
+      "Quote": "'How far a journey, Lord?' His lips drew back and back. 'A very far journey, Lady. Yet it will last only one long night.'",
+      "Rating": 5,
+      "PublishDate": "1982",
+      "Review": ["Review to follow..."],
+      "Image": "https://www.sfgateway.com/wp-content/uploads/2018/07/hbg-title-9781473205765-368.jpg?w=441",
+      "Themes": ["Fun to Read", "Good Writing", "Set On Earth", "Compilation"]
+    },
+    {
+      "Id": 23,
+      "Title": "The Andromeda Anthology",
+      "Author": "Fred Hoyle & John Elliot",
+      "Blurb": "In addition to being the man who coined the term 'the Big Bang', world-renowned astronomer Sir Fred Hoyle also produced a fine body of science fiction. The Andromeda Anthology contains the acclaimed duology A for Andromeda and The Andromeda Breakthrough, co-written with John Elliot. The close-knit group of scientists who work at the new radio telescope are shocked to receive a mysterious signal from the heart of the Andromeda galaxy. Working with mathematician Christine Jones, Dr John Fleming interprets the signal as the instructions to build a super-computer. When the computer begins to relay the information it receives from Andromeda, scientists find themselves possessing knowledge previously unknown to mankind, knowledge that could threaten the security of human life itself.",
+      "Quote": "'We shall not need Dr. Fleming,' she said, and something about her calm, measured voice ran like a cold shadow across the sunlight.",
+      "Rating": 7,
+      "PublishDate": "1964",
+      "Review": ["Review to follow..."],
+      "Image": "https://www.sfgateway.com/wp-content/uploads/2020/01/hbg-title-9781473230118-73.jpg?w=450",
+      "Themes": [
+        "Interesting Aliens",
+        "Plot Twist",
+        "Realistic",
+        "Set On Earth",
+        "Compilation"
+      ]
+    },
+    {
+      "Id": 24,
+      "Title": "A Fire Upon the Deep",
+      "Author": "Vernor Vinge",
+      "Blurb": "Millennia hence, an unknown force has partitioned space into 'zones of thought', which dictate a mind's potential - from superintelligence in the Transcend, to the limited minds of the Unthinking Depths. When an ancient Transcendent artefact is used as a weapon, an awesome destructive power is unleashed. Fleeing this threat, a family of scientists is captured by an alien race with a harsh medieval culture. A rescue party is assembled to retrieve them - and a secret that may save the rest of interstellar civilization.",
+      "Quote": "'Little fish risking everything for a piece of godhood... and not knowing heaven from hell, even when they find it",
+      "Rating": 9,
+      "PublishDate": "1992",
+      "Review": [
+        "Sometimes when I read a book or watch a movie I can't believe how original and thought provoking the ideas presented in it are. I thought that about the setting of 'Hard To Be a God' by the Strugatsky brothers, and I felt that way about the gut punch of an ending in Cristopher Priest's 'Inverted World'. After finishing this book, I felt the same way. It's an astounding work of science fiction, full of such original ideas with depth that could be fully explored in their own work but are instead used to aid the narrative of this epic, sometimes just as a small piece of side narrative. One of the best examples for this I can give in 'A Fire Upon the Deep' is the concept of the Powers in the Transcend. The Transcend is a zone of space with seemingly limitless potential for thought and scientific progress, inhabited by beings named Powers of impossible to understand substance. Are they races of aliens? Computer programs? Or perhaps, similar to that in 'A Space Odyssey' in which we simply cannot begin to understand, science fiction's own Lovecraftian beings that our human minds are not able to comprehend. Vinge's treatement of these beings is show rather than tell. The idea is deliberately left unexplored for the most part, which adds mystery and uncertainty to the narrative in a move willingly chosen, rather than due to any of his limits as an author.",
+        "I can also confidently say that 'A Fire Upon the Deep' describes my favourite aliens I've encountered in science fiction. Again in Vinge's style this race, dubbed the Tines, is shown in the midst of a power struggle without much explanation of their foreign creation and way of living. While this is at first disorienting it's rewarding to us as the reader to understand by our own efforts more of this race's culture and way of living. This takes some time but it is absolutely worthy of the effort. Without going into details of what makes this species so unique, the ideas presented once again felt so novel and endearing, and for me there's almost a bittersweet feeling that outside of this novel there is no more to this deep world and culture.",
+        "I tore through the last half of this book, as the narrative leads to a climax of such great weight it's impossible to fully comprehend. However, for me at least I did feel there were some flaws to this incredible epic. Firstly, while I previously mentioned the style of show not tell to hint at greater depths than we could comprehend, this does on occasion limit the depth of the adventure. It's a fine balance to strike a chord of hinting at more in the universe without giving details, and sometimes this did feel like it was just oversimplifying the story to result in thinner patches of narrative at points. Secondly, even though it is more recent than most entries in this collection and that works in its favour, at points the writing does feel outdated, especially considering the setting millenia in the future. The main social network used in the book copies that of real life 'Usenet' (which I had to look up to understand the reference). When reading this in the 21st century it feels hard to imagine aliens millenia from now using a similar design. Another slightly painful ageing in the book is the language used at points. For example, an enraged ship pilot at one point calls the cental heroine a 'slut' which felt out of place and is perhaps best left in the 90s. Finally, bizarrely, this edition of the book in the SF Masterworks collection had more typos than any other book I've read in the series. Even the blurb has a typo, a disservice to an epic of these proportions which frequently took me out of the immersion.",
+        "It's hard to understate this story or the ideas presented within. While there are some small issues, I really enjoyed this book and wouldn't hesitate to recommend it. Perhaps that's just for the Tines, that endearing and wholly original alien race that was the heart of the book to me."
+      ],
+      "Image": "https://www.sfgateway.com/wp-content/uploads/2018/07/hbg-title-9781473211957-384.jpg?w=185",
+      "Themes": ["Interesting Aliens", "Good Writing", "Fun to Read", "Modern"]
+    }
+  ]
 }

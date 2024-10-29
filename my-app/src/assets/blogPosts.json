@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "title": "Coeus",
+    "description": "A full-stack MERN project to create an education shortform content social network",
+    "date": "29/10/24",
+    "body": [
+      {
+        "type": "title",
+        "content": "Coeus"
+      },
+      {
+        "type": "subtitle",
+        "content": "The Idea, In Short"
+      },
+      {
+        "type": "text",
+        "content": "A website and hopefully future app that gives educational, accessible and interesting content from select subjects to help users discover new information, learn new skills and discover new interests in a low pressure but productive setting. For users, it's a way to spend time well in quick bitesize amounts, especially perfect for people with a busier schedule, having a quick break, want to explore something new or who may have a shorter attention span. And for content creators, a medium to share educational content, promote their own resources and help share their enthusiasm for their passions in videos up to 3 minutes long. Example subjects could include Astronomy, French Grammar or Politics."
+      },
+      {
+        "type": "subtitle",
+        "content": "The Problem"
+      },
+      {
+        "type": "text",
+        "content": "There is no denying the huge presence of Tiktok in modern-day culture, especially for younger generations who are, perhaps unfairly but almost inevitably, accused of having shorter attention spans due to upbringings more closely linked with technology than any generations before. The surge in popularity of 'shortform content' shows no signs of reducing. More recently, the more depressing term 'brainrot' has been used for some content on Tiktok, Youtube shorts, Instagram reels etc. for content, often AI, with no real substance but which is in the moment pleasing to watch. Another fairly recent term that arose from this digital culture is 'doomscrolling'. It's pretty much what it sounds like, though the formal definition may be helpful: 'the act of spending an excessive amount of time reading large quantities of news, particularly negative news, on the web and social media'."
+      },
+      {
+        "type": "text",
+        "content": "I found myself spending more and more time scrolling through Youtube watching short after short, then afterwards realising I could barely recall any of the things I had just spent up to 20 minutes watching. I took the personal choice of disabling my Facebook account, as well as deciding not to use Instagram, Twitter and especially Tiktok as I knew this would end up being a major timesink for me. And that is from someone who didn't have a phone until I was 13, and even then it was just my mums old brick one (I've never found a better snake game since than the one I had on there). Imagine growing up with a smartphone! I know I would be far more susceptible and have a much shorter attention span. Surely we can do better than this, especially for our youth. "
+      },
+      {
+        "type": "text",
+        "content": "Of course, the dream outcome is to reduce digital addiction and to cut the amount of time we choose to spend looking at screens, especially when done mindlessly with no real purpose. There doesn't seem to be any easy fix to this past an individual choice, and any which would be largely effective for more vulnerable parties like younger generations would in my opinion have to come from stricter regulation against the tech companies who provide these services and who only endeavour to fulfill the single goal of increasing the time spent on their apps. So, I thought about any better alternatives that I could contribute to, to help move closer in a better direction and cut wasted time on unproductive dead content. What about a way to cater to shorter attention spans, in a positive way where it bridges the gap between where we are now and where we could hope to be? Where time wasted is instead swapped out for time well spent, while still remaining light and refreshing if used during a quick break? This is when I had the idea for Coeus."
+      },
+      {
+        "type": "subtitle",
+        "content": "The Coeus Idea"
+      },
+      {
+        "type": "text",
+        "content": "Coeus (pronounced 'Co-us' or 'Coy-us', either works) is named after the titan in Greek mythology who's name in Greek is associated with 'query', 'intelligence' or 'questioning'. Already existing shortform content does already cater to users preferences. I get quite a lot of educational content curated off my own interests, for example science content and abstract maths. This is of course because I already watch similar content so this gets suggested for me. However, this is still saturated among a lot of other content that I'd rather not see. So I imagined a site where content is purely worth your time, interesting and educational. By being entirely built around these sorts of videos, there are fewer distractions and the content can be more specialised for users. I made the design choice that each video can be tagged with up to 2 Major Topics and 3 Minor Topics. Major Topics cover large areas of study, for example History, Religion and Culinary Arts. The Minor Topics are chained from Major Topics, and these can be nested fairly deeply. So taking the History example, a valid Minor Topic could be 'History → European History' or the choice could be made to be more specific with 'History → European History → Scandinavian History → Icelandic History'."
+      },
+      {
+        "type": "central-picture",
+        "content": "https://i.ibb.co/KGRzNkY/coeus-video.png",
+        "alt": "An example of an uploaded video with topics",
+        "text": "An uploaded video with topics and a like counter. Won't be 7 hour videos in the real thing!"
+      },
+      {
+        "type": "subtitle",
+        "content": "Development Progess"
+      },
+      {
+        "type": "text",
+        "content": "I've spent a reasonable amount of time setting up the foundations of the project, admittedly more than I anticipated. Turns out its a lot of work! However, I am really happy with the functionality I've already implemented though I look forward to improving this down the line and cleaning up the code. I have so far created the registration and login pages, home page, find users, user pages, major topic pages and profile page. These all come with the backend functionality which involves creating my own API with full test coverage for the API methods. Currently as this is in an early prototype stage, I haven't wanted to pay for video storage online (which can get really, really really expensive) so as a short term compromise users upload youtube links instead. I've also implemented a rudimentary like system which logs which videos a user likes and gives this to them on their profile page. A short term goal is to also allow users to mark which topics they are interested in, which will eventually support better algorithmic suggestions. I've put off as much styling as possible for now, due to how frequently changes are made to the structure and content of the pages."
+      },
+      {
+        "type": "central-picture",
+        "content": "https://i.ibb.co/MCkR53G/Screenshot-2024-10-29-113452.png",
+        "alt": "A list of users to follow and check out",
+        "text": "Please ignore the ugly lack of CSS for now, it'll happen soon!"
+      },
+      {
+        "type": "subtitle",
+        "content": "The MERN stack"
+      },
+      {
+        "type": "text",
+        "content": "I started this project by creating a backend with Node and Express.js. Having formerly been a front-end developer aiming to work more full-stack, this is fairly new territory for me. However, I was pleasantly surprised how quickly it came together and along with Insomnia to test my API calls I quickly got a working back-end. Setting up the controllers, models and routes was pretty standard work, but managing to connect it with MongoDB was a great feeling as I was able to see dummy users being created and uploaded online in the structure dictated by my model code. The front end was made in React which I am comfortable with and can build up quickly due to my work experience. The API calls work quickly and so there are no current issues with this setup."
+      },
+      {
+        "type": "subtitle",
+        "content": "Next Steps"
+      },
+      {
+        "type": "text",
+        "content": "I have a very rudimentary recommended videos algorithm on the home page which just fetches the most recent videos uploaded. I'd like to get the users more personalised by being able to choose to follow certain topics, and then use these selected interests to give the users better recommendations as well as other linked topics which might be of interest to them. Also, as the project is not currently hosted online this would be a great next step, but first it may be best to ensure it is secure and ensure I know what I'm doing enough to not rack up any unexpected charges! Anyway, there's lots of exciting potential with this project and I'm excited to see where it goes!"
+      },
+      {
+        "type": "text",
+        "content": "Thanks for reading this post. I hope I'll have some good updates to share on this project soon!"
+      }
+    ]
+  }
+]
