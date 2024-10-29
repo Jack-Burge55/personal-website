@@ -4,31 +4,31 @@
         "Id": 0,
         "Title": "Play Santorini",
         "LinkName": "play-santorini",
-        "Image": "./images/PlaySantorini.png"
+        "Image": "https://i.ibb.co/dJ0F56P/Santorini-program.png"
     },
     {
         "Id": 5,
         "Title": "Farmazon",
         "LinkName": "farmazon",
-        "Image": "./images/Farmazon.png"
+        "Image": "https://i.ibb.co/c3fT96h/farmazon.png"
     },
     {
         "Id": 2,
         "Title": "SF Masterworks",
         "LinkName": "books",
-        "Image": "./images/SFProjectPic.jpg"
+        "Image": "https://i.ibb.co/jTF45Hj/SFProject-Pic.jpg"
     },
     {
         "Id": 1,
         "Title": "The Santorini Story",
         "LinkName": "santorini",
-        "Image": "./images/SantoProjectPic.jpg"
+        "Image": "https://i.ibb.co/h9hdV14/Santo-Project-Pic.jpg"
     },
     {
         "Id": 4,
         "Title": "Sudoku",
         "LinkName": "sudoku",
-        "Image": "./images/Sudoku.png"
+        "Image": "https://i.ibb.co/0tkZ5qV/Sudoku.png"
     },
     {
         "Id": 3,

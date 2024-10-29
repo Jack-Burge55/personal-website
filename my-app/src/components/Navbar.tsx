@@ -59,6 +59,9 @@ const Navbar = () => {
           <Link to="/projects" onClick={() => toggleBurgerMenu("close")} className="navbar-item">
             Projects
           </Link>
+          <Link to="/blog" onClick={() => toggleBurgerMenu("close")} className="navbar-item">
+            Blog
+          </Link>
           <Link to="/about" onClick={() => toggleBurgerMenu("close")} className="navbar-item">
             About
           </Link>

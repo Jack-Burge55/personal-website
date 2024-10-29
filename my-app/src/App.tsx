@@ -4,6 +4,8 @@ import Navbar from './components/Navbar'
 import './App.css';
 import Home from "./components/Home";
 import Books from './components/Books';
+import Blog from "./components/Blog";
+import BlogPage from "./components/BlogPage";
 import ReactPage from './components/ReactPage';
 import Sudoku from "./components/Sudoku";
 import Farmazon from "./components/Farmazon";
@@ -25,6 +27,8 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route path="/book/:bookId" element={<BookPage/>} />
         <Route path="/books" element={<Books />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:blogId" element={<BlogPage />} />
         <Route path="/santorini" element={<SantoriniPage />} />
         <Route path="/play-santorini" element={<PlaySantorini />} />
         <Route path="/react" element={<ReactPage />} />
