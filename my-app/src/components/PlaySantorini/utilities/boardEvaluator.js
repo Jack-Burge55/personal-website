@@ -14,11 +14,10 @@ import validMoves from "./validMoves.js";
 const boardEvaluator = (playerValue, grid) => {
 
     // set score variables for board rating
-    // NOTE: Score variables could be optimised
-    const winScore = 2000
-    const currentHeightScoreModifier = 500
-    const moveUpScore = 75
-    const moveLevelScore = 5
+    const winScore = 13220
+    const currentHeightScoreModifier = 947
+    const moveUpScore = 28
+    const moveLevelScore = 3
     // boardRating begins between 0 and 1 to break draws thus preventing tendency towards top left moves
     let boardRating = Math.random()
 

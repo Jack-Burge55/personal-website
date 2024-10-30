@@ -1,7 +1,7 @@
 import React from "react";
 import SantoPhoto from "../assets/SantoPhoto.jpg";
 import SantoProgram from "../assets/SantoProgram.png";
-import minimax from "../assets/minimax.png"
+import minimax from "../assets/minimax.png";
 
 const SantoriniPage = () => {
   return (
@@ -171,20 +171,99 @@ const SantoriniPage = () => {
       />
       <h2 className="title is-4 block">Implementation on my website</h2>
       <p className="block">
-        I finally managed to build a UI for the game in React and put this on my page. This now has the three engines implemented and provides a choice to the user for their builder colour and which engine they would like to play against.
-        The primary challenge here was implementing the React UI interface, as most of the actual game logic has already been previously written in my previous projects on Santorini.
+        I finally managed to build a UI for the game in React and put this on my
+        page. This now has the three engines implemented and provides a choice
+        to the user for their builder colour and which engine they would like to
+        play against. The primary challenge here was implementing the React UI
+        interface, as most of the actual game logic has already been previously
+        written in my previous projects on Santorini.
       </p>
+      <h2 className="title is-4 block">Small update</h2>
+      <p className="block">
+        After having a few attempts against the minimax engine, I noticed it
+        would occasionally make some unusual choices, like being a single move
+        away from winning but not taking it. I realised this must be from the
+        weighting values I had given the engine and that these must be
+        sub-optimal for assessing board state and winning the game less often
+        than it could. So, I adjusted the code slightly to make the minimax
+        engine play against a variant of itself, with a random variation to the
+        weightings of +-25% to each of the four values. I also pitted it against
+        itself in a best of 3 format, to try to make sure that the best engine
+        won. Of course, as the weightings were adjusted randomly this wouldn't
+        increase performance straight away, so I had to play multiple rounds of
+        best of threes and adjust the weightings to match those of the winners
+        each round. Due to the time it takes for an entire game between two
+        minimax engines to run, approximately 15-20 seconds per game, this was
+        fairly time consuming. However, after over 60 rounds of best of three
+        competitions I saw a clear change in weightings. The weighting changes
+        were as followed:
+      </p>
+      <ul className="block">
+        <li>Winning the game: 2000 → 3220</li>
+        <li>Importance of player height: 500 → 947</li>
+        <li>Opportunites to move up: 75 → 28</li>
+        <li>Opportunities to move: 5 → 3</li>
+      </ul>
+      <p className="block">
+        These might seem like small adjustments, and they are, however it's
+        interesting to see what it is worth considering. Obviously winning
+        didn't have the weighting it deserved, I suspect it previously put off
+        winning because it valued both builders higher to be more important than
+        actually winning the game. The current player height has also doubled in
+        importance. This appears to make the engine more aggressive and really
+        care about stopping the opponent from getting higher. Finally, the other
+        two considerations seem to pale in importance in comparison, but they
+        are still good to have so I'll keep them in for now. The question now
+        is: Is this new weighted minimax actually any better than the original?
+        And the answer is, so far, it seems so! After 40 rounds of best of
+        threes between the old and new weightings, the new weightings won 33/40
+        games! These new weightings will now be used on the website instead, so
+        if you're reading this, you'll be able to try yourself. I've had a go,
+        and it definitely feels more aggressive and covers your spaces a lot
+        more. This also brings up the possibility of having a more continuous difficulty rating. By changing the weightings of different aspects of the board, we could artifically adjust the difficulty to allow a more fluid scale of engine challenges.
+      </p>
+      <p className="block">
+        Another quick note... While writing this, I was curious to see if there
+        is no reason for the aim of winning to not, of course, be much more
+        important to the engine. I 10x the weighting of winning and it then beat
+        the updated weightings 16/20 times... In retrospect it seems obvious but
+        I think I was worried in the pursuit of winning directly it might be
+        greedy and a worse player. Apparently not! So, I've updated the
+        weightings further to now be the current weightings of:
+      </p>
+      <ul className="block">
+        <li>Winning the game: 13220</li>
+        <li>Importance of player height: 947</li>
+        <li>Opportunites to move up: 28</li>
+        <li>Opportunities to move: 3</li>
+      </ul>
       <h2 className="title is-4 block">Next Steps</h2>
-      <p className="block">Now I have integrated the engines onto this website, the next step is to create even more engines that play better than the good but imperfect minimax engine. Once any further engine has been created, it will be easy to update the page with the new engine after bringing over the code.</p>
-      <p className="block">Another goal is to implement the basic god cards into the game, both in the UI for the player and also for the engine. Due to the range of powers available to even the basic gods (dome at any level, move twice before building...) this is a substantial change to the logic and would take some time!</p>
-      <p className="block">To see the code to create the engines, you can check my public repository <a
+      <p className="block">
+        Now I have integrated the engines onto this website, the next step is to
+        create even more engines that play better than the good but imperfect
+        minimax engine. Once any further engine has been created, it will be
+        easy to update the page with the new engine after bringing over the
+        code.
+      </p>
+      <p className="block">
+        Another goal is to implement the basic god cards into the game, both in
+        the UI for the player and also for the engine. Due to the range of
+        powers available to even the basic gods (dome at any level, move twice
+        before building...) this is a substantial change to the logic and would
+        take some time!
+      </p>
+      <p className="block">
+        To see the code to create the engines, you can check my public
+        repository{" "}
+        <a
           href="https://github.com/Jack-Burge55/santorini-engine"
           target="_blank"
           rel="noreferrer"
           className="textLink"
         >
           here!
-        </a></p>
+        </a>
+      </p>
     </>
   );
 };
