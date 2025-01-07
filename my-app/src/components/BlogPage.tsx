@@ -39,8 +39,6 @@ const BlogPage = () => {
             );
           }
           if (segment.type === "central-picture") {
-            console.log(segment.content);
-
             return (
               <div key={index} className="block">
                 <img

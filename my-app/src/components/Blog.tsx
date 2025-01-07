@@ -5,7 +5,7 @@ const Blog = () => {
   return (
     <>
       <h3 className="title is-3">My Blog</h3>
-      {blogPosts.map((post) => {
+      {blogPosts.slice(0).reverse().map((post) => {
         return (
           <Link
             to={`/blog/${post.id}`}
